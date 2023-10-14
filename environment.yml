@@ -1,0 +1,12 @@
+name: swapanything
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  - pip
+  - ipython
+  - ipykernel
+  - python-dotenv
+  - matplotlib
+  - pip:
+      - -e .[dev,test,docs]

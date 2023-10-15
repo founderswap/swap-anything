@@ -6,14 +6,13 @@ from pydantic import BaseModel, Field, PastDatetime, SecretStr
 from pydantic_settings import BaseSettings, SettingsConfigDict
 
 # from swapanything import models as m
+from ._base import BackendBase
 
 
 class AirtableRecord(BaseModel):
     record_id: str = Field(alias="id")
     created_timestamp: PastDatetime = Field(alias="createdTime")
-    record_fields: dict = Field(
-        alias="fields"
-    )
+    record_fields: dict = Field(alias="fields")
 
 
 class AirtableResponse(BaseModel):
@@ -28,7 +27,7 @@ class AirtableResponse(BaseModel):
         return df
 
 
-class AirTableBackend(BaseSettings):
+class AirTableBackend(BaseSettings, BackendBase):
     subject_features: list[str]
     availability_subject_column: str
     availabilities_column: str
@@ -62,7 +61,9 @@ class AirTableBackend(BaseSettings):
         )
         table = AirtableResponse(records=table)
         table = (
-            table.to_pandas().rename(columns={"recID": "subject_id"}).set_index("subject_id")
+            table.to_pandas()
+            .rename(columns={"recID": "subject_id"})
+            .set_index("subject_id")
         )
         return table
 

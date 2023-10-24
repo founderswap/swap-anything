@@ -1,0 +1,70 @@
+site_name: swap-anything
+repo_url: https://github.com/founderswap/swap-anything
+theme:
+  palette:
+    primary: deep orange
+  favicon: static/founderswap.ico
+  logo: static/founderswap-logo.jpg
+  icon:
+    repo: fontawesome/brands/github-alt
+  font: false
+  name: material
+  features:
+    - header.autohide
+    - navigation.instant
+    - navigation.tabs
+    - navigation.tabs.sticky
+    # - navigation.sections
+    - navigation.tracking
+    - navigation.expand
+    - navigation.path
+    - navigation.prune
+    - navigation.indexes
+    - navigation.top
+    - toc.follow
+    - navigation.footer
+extra_css:
+  - stylesheets/extra.css
+
+copyright: Copyright &copy; 2023 FounderSwap team.
+
+extra:
+  # hide `Made with Material for MkDocs` footer
+  generator: false
+
+plugins:
+  - search
+  - mkdocstrings:
+      handlers:
+        python:
+          options:
+            docstring_style: numpy
+            show_if_no_docstring: true
+            show_signature_annotations: true
+            show_source: false
+            summary: true
+
+  # - mkdocs-jupyter:
+  #     execute: False
+  #     theme: material
+
+markdown_extensions:
+  - def_list
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - toc:
+      permalink: true
+
+  # enable collapsible details blocks
+  - admonition
+  - pymdownx.details
+
+  # highlight code
+  - pymdownx.highlight
+  - pymdownx.inlinehilite
+
+  # embed code
+  - pymdownx.snippets

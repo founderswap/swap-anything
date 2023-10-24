@@ -51,7 +51,14 @@ dev = ["black", "ruff", "pre-commit"]
 
 test = ["pytest", "pytest-cov", "Faker"]
 
-docs = ["mkdocs", "mkdocs-material", "mkdocstrings", "mkdocs-jupyter"]
+docs = [
+  "mkdocs",
+  "mkdocs-material",
+  "mkdocstrings",
+  "mkdocs-jupyter",
+  "mkdocstrings[python]",
+  "pytkdocs[numpy-style]",
+]
 
 
 [tool.black]

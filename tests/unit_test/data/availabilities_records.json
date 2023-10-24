@@ -1,33 +1,26 @@
 [
-    {
-        "id": "rec001availab",
-        "createdTime": "2023-06-09T13:33:11.000Z",
-        "fields": {
-            "subj": [
-                "rec001"
-            ],
-            "availability_creation_timestamp": "2023-06-09T13:32:46.000Z",
-            "avail": [
-                "2023-06-09T13:00:00.000Z",
-                "2023-06-09T13:15:00.000Z",
-                "2023-06-10T12:00:00.000Z"
-            ],
-            "recID": "rec001availab"
-        }
-    },
-    {
-        "id": "rec002availab",
-        "createdTime": "2023-06-09T14:11:09.000Z",
-        "fields": {
-            "subj": [
-                "rec002"
-            ],
-            "availability_creation_timestamp": "2023-06-09T14:11:09.000Z",
-            "avail": [
-                "2023-06-09T13:15:00.000Z",
-                "2023-06-10T14:00:00.000Z"
-            ],
-            "recID": "rec002availab"
-        }
+  {
+    "id": "rec001availab",
+    "createdTime": "2023-06-09T13:33:11.000Z",
+    "fields": {
+      "subj": ["rec001"],
+      "availability_creation_timestamp": "2023-06-09T13:32:46.000Z",
+      "avail": [
+        "2023-06-09T13:00:00.000Z",
+        "2023-06-09T13:15:00.000Z",
+        "2023-06-10T12:00:00.000Z"
+      ],
+      "recID": "rec001availab"
     }
+  },
+  {
+    "id": "rec002availab",
+    "createdTime": "2023-06-09T14:11:09.000Z",
+    "fields": {
+      "subj": ["rec002"],
+      "availability_creation_timestamp": "2023-06-09T14:11:09.000Z",
+      "avail": ["2023-06-09T13:15:00.000Z", "2023-06-10T14:00:00.000Z"],
+      "recID": "rec002availab"
+    }
+  }
 ]

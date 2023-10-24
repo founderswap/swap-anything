@@ -1,148 +1,110 @@
 [
-    {
-        "id": "rec001",
-        "createdTime": "2023-04-26T12:15:25.000Z",
-        "fields": {
-            "Nome Startup": "Crono",
-            "Status": "Complete",
-            "URL Startup": "www.crono.one",
-            "Growth Stage": [
-                "Pre-seed"
-            ],
-            "Privacy Consent": true,
-            "Goals": [
-                "Confrontarmi con Founders nel mio stesso stadio di crescita"
-            ],
-            "Ruolo": [
-                "CEO"
-            ],
-            "Cognome": "Roggero",
-            "Email": "alex.roggero@email.com",
-            "tester": true,
-            "Customers": [
-                "\ud83c\udfe2 B2B"
-            ],
-            "Interessi": [
-                "Saas",
-                "B2B",
-                "Sales"
-            ],
-            "Nome": "Alex",
-            "Lingue Parlate": [
-                "\ud83c\uddee\ud83c\uddf9 IT",
-                "\ud83c\uddec\ud83c\udde7 ENG"
-            ],
-            "Created": "2023-04-26T12:15:25.000Z",
-            "Nome Completo": "Alex Roggero",
-            "weekly-url": "https://founderswap.xyz",
-            "recID": "rec001",
-            "Weekly-form": "https://founderswap.xyz",
-            "signup-url": "https://founderswap.xyz",
-            "signup-form": "https://founderswap.xyz"
-        }
-    },
-    {
-        "id": "rec003",
-        "createdTime": "2023-04-26T12:15:11.000Z",
-        "fields": {
-            "Nome Startup": "Ncode",
-            "Status": "Complete",
-            "URL Startup": "www.ncode.it",
-            "Growth Stage": [
-                "Pre-seed"
-            ],
-            "Privacy Consent": true,
-            "Goals": [
-                "Confrontarmi con Founders nel mio stesso stadio di crescita"
-            ],
-            "URL Linkedin": "https://www.linkedin.com/in/fake/",
-            "Ruolo": [
-                "CEO"
-            ],
-            "Cognome": "Lodigiani",
-            "Email": "lorenzo.lodigiani@email.com",
-            "tester": true,
-            "Customers": [
-                "\ud83c\udfe2 B2B"
-            ],
-            "Interessi": [
-                "Saas",
-                "B2B",
-                "Sales"
-            ],
-            "Nome": "Lorenzo",
-            "Partecipazioni Week": [
-                "recMatch001"
-            ],
-            "Lingue Parlate": [
-                "\ud83c\uddee\ud83c\uddf9 IT",
-                "\ud83c\uddec\ud83c\udde7 ENG"
-            ],
-            "Created": "2023-04-26T12:15:11.000Z",
-            "Nome Completo": "Lorenzo Lodigiani",
-            "weekly-url": "https://founderswap.xyz",
-            "recID": "rec003",
-            "Weekly-form": "https://founderswap.xyz",
-            "signup-url": "https://founderswap.xyz",
-            "signup-form": "https://founderswap.xyz"
-        }
-    },
-    {
-        "id": "rec004",
-        "createdTime": "2023-06-09T13:22:04.000Z",
-        "fields": {
-            "Nome Startup": "Kung Fury",
-            "URL Startup": "https://www.kungfury.com/",
-            "Growth Stage": [
-                "Bootstrap"
-            ],
-            "URL Linkedin": "https://www.linkedin.com/in/fake",
-            "Ruolo": [
-                "CTO"
-            ],
-            "Cognome": "Hackerman",
-            "Email": "hackerman@email.com",
-            "tester": true,
-            "Nome": "Joseph",
-            "Partecipazioni Week": [
-                "recMatch002"
-            ],
-            "Created": "2023-06-09T13:22:04.000Z",
-            "Nome Completo": "Joseph Hackerman",
-            "weekly-url": "https://founderswap.xyz",
-            "recID": "rec004",
-            "Weekly-form": "https://founderswap.xyz",
-            "signup-url": "https://founderswap.xyz",
-            "signup-form": "https://founderswap.xyz"
-        }
-    },
-    {
-        "id": "rec004",
-        "createdTime": "2023-06-09T13:22:04.000Z",
-        "fields": {
-            "Nome Startup": "Kung Fury",
-            "URL Startup": "https://www.kungfury.com/",
-            "Growth Stage": [
-                "Bootstrap"
-            ],
-            "URL Linkedin": "https://www.linkedin.com/in/fake",
-            "Ruolo": [
-                "CSO"
-            ],
-            "Cognome": "Triceracop",
-            "Email": "triceracop@email.com",
-            "tester": true,
-            "Nome": "Bill",
-            "Partecipazioni Week": [
-                "recMatch002"
-            ],
-            "Created": "2023-06-09T13:22:04.000Z",
-            "Nome Completo": "Bill Triceracop",
-            "weekly-url": "https://founderswap.xyz",
-            "recID": "rec004",
-            "Weekly-form": "https://founderswap.xyz",
-            "signup-url": "https://founderswap.xyz",
-            "signup-form": "https://founderswap.xyz"
-        }
+  {
+    "id": "rec001",
+    "createdTime": "2023-04-26T12:15:25.000Z",
+    "fields": {
+      "Nome Startup": "Crono",
+      "Status": "Complete",
+      "URL Startup": "www.crono.one",
+      "Growth Stage": ["Pre-seed"],
+      "Privacy Consent": true,
+      "Goals": ["Confrontarmi con Founders nel mio stesso stadio di crescita"],
+      "Ruolo": ["CEO"],
+      "Cognome": "Roggero",
+      "Email": "alex.roggero@email.com",
+      "tester": true,
+      "Customers": ["\ud83c\udfe2 B2B"],
+      "Interessi": ["Saas", "B2B", "Sales"],
+      "Nome": "Alex",
+      "Lingue Parlate": [
+        "\ud83c\uddee\ud83c\uddf9 IT",
+        "\ud83c\uddec\ud83c\udde7 ENG"
+      ],
+      "Created": "2023-04-26T12:15:25.000Z",
+      "Nome Completo": "Alex Roggero",
+      "weekly-url": "https://founderswap.xyz",
+      "recID": "rec001",
+      "Weekly-form": "https://founderswap.xyz",
+      "signup-url": "https://founderswap.xyz",
+      "signup-form": "https://founderswap.xyz"
     }
+  },
+  {
+    "id": "rec003",
+    "createdTime": "2023-04-26T12:15:11.000Z",
+    "fields": {
+      "Nome Startup": "Ncode",
+      "Status": "Complete",
+      "URL Startup": "www.ncode.it",
+      "Growth Stage": ["Pre-seed"],
+      "Privacy Consent": true,
+      "Goals": ["Confrontarmi con Founders nel mio stesso stadio di crescita"],
+      "URL Linkedin": "https://www.linkedin.com/in/fake/",
+      "Ruolo": ["CEO"],
+      "Cognome": "Lodigiani",
+      "Email": "lorenzo.lodigiani@email.com",
+      "tester": true,
+      "Customers": ["\ud83c\udfe2 B2B"],
+      "Interessi": ["Saas", "B2B", "Sales"],
+      "Nome": "Lorenzo",
+      "Partecipazioni Week": ["recMatch001"],
+      "Lingue Parlate": [
+        "\ud83c\uddee\ud83c\uddf9 IT",
+        "\ud83c\uddec\ud83c\udde7 ENG"
+      ],
+      "Created": "2023-04-26T12:15:11.000Z",
+      "Nome Completo": "Lorenzo Lodigiani",
+      "weekly-url": "https://founderswap.xyz",
+      "recID": "rec003",
+      "Weekly-form": "https://founderswap.xyz",
+      "signup-url": "https://founderswap.xyz",
+      "signup-form": "https://founderswap.xyz"
+    }
+  },
+  {
+    "id": "rec004",
+    "createdTime": "2023-06-09T13:22:04.000Z",
+    "fields": {
+      "Nome Startup": "Kung Fury",
+      "URL Startup": "https://www.kungfury.com/",
+      "Growth Stage": ["Bootstrap"],
+      "URL Linkedin": "https://www.linkedin.com/in/fake",
+      "Ruolo": ["CTO"],
+      "Cognome": "Hackerman",
+      "Email": "hackerman@email.com",
+      "tester": true,
+      "Nome": "Joseph",
+      "Partecipazioni Week": ["recMatch002"],
+      "Created": "2023-06-09T13:22:04.000Z",
+      "Nome Completo": "Joseph Hackerman",
+      "weekly-url": "https://founderswap.xyz",
+      "recID": "rec004",
+      "Weekly-form": "https://founderswap.xyz",
+      "signup-url": "https://founderswap.xyz",
+      "signup-form": "https://founderswap.xyz"
+    }
+  },
+  {
+    "id": "rec004",
+    "createdTime": "2023-06-09T13:22:04.000Z",
+    "fields": {
+      "Nome Startup": "Kung Fury",
+      "URL Startup": "https://www.kungfury.com/",
+      "Growth Stage": ["Bootstrap"],
+      "URL Linkedin": "https://www.linkedin.com/in/fake",
+      "Ruolo": ["CSO"],
+      "Cognome": "Triceracop",
+      "Email": "triceracop@email.com",
+      "tester": true,
+      "Nome": "Bill",
+      "Partecipazioni Week": ["recMatch002"],
+      "Created": "2023-06-09T13:22:04.000Z",
+      "Nome Completo": "Bill Triceracop",
+      "weekly-url": "https://founderswap.xyz",
+      "recID": "rec004",
+      "Weekly-form": "https://founderswap.xyz",
+      "signup-url": "https://founderswap.xyz",
+      "signup-form": "https://founderswap.xyz"
+    }
+  }
 ]

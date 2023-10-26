@@ -5,7 +5,7 @@ A mix and match (swap) library to empower swapping-based projects.
 > NOTE: `swapanything` is still in its proof-of-concept phase (some
 > of the things in readme are not implemented yet!). If you want to
 > contribute or sponsor this project, visit
-> [www.founderswap.xyz/contribute](www.founderswap.xyz/contribute)
+> [www.founderswap.xyz](https://www.founderswap.xyz)
 
 ## Quickstart
 

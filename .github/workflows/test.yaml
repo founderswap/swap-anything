@@ -1,0 +1,37 @@
+# Simple workflow for deploying static content to GitHub Pages
+name: Run tests
+
+on:
+  # Runs on pushes targeting the default branch
+  push:
+    branches: ["master", "qa"]
+
+  # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:
+
+concurrency:
+  group: "test"
+  cancel-in-progress: false
+
+jobs:
+  # Single deploy job since we're just deploying
+  deploy:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          cache: pip
+          cache-dependency-path: pyproject.toml
+          python-version-file: pyproject.toml
+
+      - name: Install Python dependencies
+        run: pip install --disable-pip-version-check .[test]
+
+      - name: Run tests
+        run: pytest --cov=src --cov-report=term-missing tests

@@ -31,7 +31,7 @@ jobs:
           python-version-file: pyproject.toml
 
       - name: Install Python dependencies
-        run: pip install -e --disable-pip-version-check .[test]
+        run: pip install --disable-pip-version-check -e .[test]
 
       - name: Run tests
         run: pytest --cov=src --cov-report=term-missing tests

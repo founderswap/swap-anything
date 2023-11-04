@@ -36,10 +36,11 @@ repos:
     hooks:
       - id: black
 
-  - repo: https://github.com/pycqa/flake8
-    rev: 6.0.0
+  - repo: https://github.com/astral-sh/ruff-pre-commit
+    # Ruff version.
+    rev: v0.1.4
     hooks:
-      - id: flake8
+      - id: ruff
 
   - repo: https://github.com/pycqa/isort
     rev: 5.12.0

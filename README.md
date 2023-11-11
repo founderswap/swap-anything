@@ -2,6 +2,10 @@
 
 A mix and match (swap) library to empower swapping-based projects.
 
+[![Docs](https://github.com/founderswap/swap-anything/actions/workflows/build_docs.yaml/badge.svg)](https://founderswap.github.io/swap-anything/)
+[![Tests](https://github.com/founderswap/swap-anything/actions/workflows/test.yaml/badge.svg)](https://github.com/founderswap/swap-anything/actions/workflows/test.yaml)
+[![codecov](https://codecov.io/gh/founderswap/swap-anything/branch/main/graph/badge.svg)](https://codecov.io/gh/founderswap/swap-anything)
+
 > NOTE: `swapanything` is still in its proof-of-concept phase (some
 > of the things in readme are not implemented yet!). If you want to
 > contribute or sponsor this project, visit

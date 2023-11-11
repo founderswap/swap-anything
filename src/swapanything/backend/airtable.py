@@ -1,4 +1,5 @@
 from collections.abc import Iterator
+from typing import Annotated, Iterable
 
 import pandas as pd
 import pyairtable as airtable
@@ -28,12 +29,16 @@ class AirtableResponse(BaseModel):
 
 
 class AirTableBackend(BaseSettings, BackendBase):
+    # Manually adding again to help pylance and other
+    # linters not to get crazy
     subject_features: list[str]
     availability_subject_column: str
     availabilities_column: str
+    exclusions_subject_columns: Annotated[Iterable[str], 2]
 
     subjects_table_name: str
     availabilities_table_name: str
+    exclusions_table_name: str
     client_id: SecretStr = Field(..., validation_alias="AIRTABLE_BASE_ID")
     client_secret: SecretStr = Field(..., validation_alias="AIRTABLE_API_KEY")
 
@@ -44,7 +49,7 @@ class AirTableBackend(BaseSettings, BackendBase):
         table_name: str,
         **options,
     ) -> list[dict]:
-        table = airtable.Table(
+        table = airtable.Table(  # type: ignore
             api_key=self.client_secret.get_secret_value(),
             base_id=self.client_id.get_secret_value(),
             table_name=table_name,
@@ -59,11 +64,25 @@ class AirTableBackend(BaseSettings, BackendBase):
             fields=["recID", *self.subject_features],
             formula=formula,
         )
-        table = AirtableResponse(records=table)
+        table = AirtableResponse.model_validate({"records": table})
         table = (
             table.to_pandas()
             .rename(columns={"recID": "subject_id"})
             .set_index("subject_id")
+        )
+        return table
+
+    def get_exclusions(self, formula: str | None = None) -> pd.DataFrame:
+        table = self._get_table(
+            table_name=self.exclusions_table_name,
+            fields=["recID", *self.exclusions_subject_columns],
+            formula=formula,
+        )
+        table = AirtableResponse.model_validate({"records": table})
+        table = (
+            table.to_pandas()
+            .rename(columns={"recID": "exclusion_id"})
+            .set_index("exclusion_id")
         )
         return table
 

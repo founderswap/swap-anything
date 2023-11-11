@@ -9,6 +9,8 @@ A mix and match (swap) library to empower swapping-based projects.
 
 ## Quickstart
 
+Check the [developer guide](./docs/about/developer-guide.md)
+
 ### Using CLI (example)
 
 You can start swapping using spreadsheets as sources/destinations of data.

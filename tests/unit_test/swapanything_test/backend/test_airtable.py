@@ -29,13 +29,15 @@ def mock_airtable(
     monkeypatch: pytest.MonkeyPatch,
     CLEAN_SUBJECTS_RECORDS: list[dict],
     CLEAN_AVAILABILITIES_RECORDS: list[dict],
+    CLEAN_EXCLUSIONS_RECORDS: list[dict],
     SUBJECTS_TABLE_NAME: str,
     AVAILABILITIES_TABLE_NAME: str,
+    EXCLUSIONS_TABLE_NAME: str,
     mock_airtable_env_vars: None,
-) -> None:
+) -> MagicMock:
     """Make Airtable SDK return our mock subjects records."""
     # custom class to be the mock return value of requests.get()
-    mock_airtable = MagicMock(be.airtable.Table)
+    mock_airtable = MagicMock(be.airtable.Table)  # type: ignore
     mock_airtable.return_value = mock_airtable
 
     def get_records(*args, **kwargs) -> list[dict]:
@@ -44,6 +46,8 @@ def mock_airtable(
             return CLEAN_SUBJECTS_RECORDS
         elif table_name == AVAILABILITIES_TABLE_NAME:
             return CLEAN_AVAILABILITIES_RECORDS
+        elif table_name == EXCLUSIONS_TABLE_NAME:
+            return CLEAN_EXCLUSIONS_RECORDS
         else:
             raise NotImplementedError("No mock records for '%s'" % table_name)
 
@@ -60,25 +64,34 @@ def airtable_backend(
     AVAILABILITIES_COLUMN: str,
     SUBJECTS_TABLE_NAME: str,
     AVAILABILITIES_TABLE_NAME: str,
+    EXCLUSIONS_TABLE_NAME: str,
+    EXCLUSOIONS_SUBJECT_COLUMNS: list[str],
     mock_airtable: None,
 ) -> be.AirTableBackend:
-    backend = be.AirTableBackend(
+    backend = be.AirTableBackend(  # type: ignore
         subject_features=SUBJECT_FEATURES,
         availability_subject_column=AVAILABILITY_SUBJECT_COLUMN,
         availabilities_column=AVAILABILITIES_COLUMN,
         subjects_table_name=SUBJECTS_TABLE_NAME,
         availabilities_table_name=AVAILABILITIES_TABLE_NAME,
+        exclusions_table_name=EXCLUSIONS_TABLE_NAME,
+        exclusions_subject_columns=EXCLUSOIONS_SUBJECT_COLUMNS,
     )
     return backend
 
 
 def test_backend_init(mock_airtable: MagicMock, BASE_ID: str, API_KEY: str):
-    data = be.AirTableBackend(
+    data = be.AirTableBackend(  # type: ignore
         subject_features=["a", "b"],
         availability_subject_column="availability_subject_column",
         availabilities_column="availabilities_column",
         subjects_table_name="subjects_table",
         availabilities_table_name="availabilities_table",
+        exclusions_table_name="exclustions_table",
+        exclusions_subject_columns=[
+            "exclusions_subject_column1",
+            "exclusions_subject_column2",
+        ],
     )
     assert re.match(r"^\*{2,}$", str(data.client_id))  # all is more than 2 '*'
     assert re.match(r"^\*{2,}$", str(data.client_secret))
@@ -119,7 +132,7 @@ def test_get_subjects(
     airtable_backend: be.AirTableBackend,
     mock_airtable: MagicMock,
     SUBJECTS_TABLE_NAME: str,
-    SUBJECT_FEATURES: str,
+    SUBJECT_FEATURES: list[str],
     SUBJECTS_DF: pd.DataFrame,
     BASE_ID: str,
     API_KEY: str,
@@ -151,9 +164,27 @@ def test_get_availabilities(
     mock_airtable.assert_called_once_with(
         api_key=API_KEY, base_id=BASE_ID, table_name=AVAILABILITIES_TABLE_NAME
     )
-    mock_airtable.all.assert_called_once_with(
-        fields=AVAIL_FEATURES, formula=None
-    )
-    assert set(df.columns) == {'subject_id', 'availabilities'}
+    mock_airtable.all.assert_called_once_with(fields=AVAIL_FEATURES, formula=None)
+    assert set(df.columns) == {"subject_id", "availabilities"}
     assert df.index.name == "availability_id"
     assert df.equals(AVAILABILITIES_DF)
+
+
+def test_get_exclustions(
+    airtable_backend: be.AirTableBackend,
+    mock_airtable: MagicMock,
+    EXCLUSIONS_TABLE_NAME: str,
+    EXCLUSOIONS_SUBJECT_COLUMNS: list[str],
+    EXCLUSIONS_DF: pd.DataFrame,
+    BASE_ID: str,
+    API_KEY: str,
+):
+    df = airtable_backend.get_exclusions(formula=None)
+    mock_airtable.assert_called_once_with(
+        api_key=API_KEY, base_id=BASE_ID, table_name=EXCLUSIONS_TABLE_NAME
+    )
+    mock_airtable.all.assert_called_once_with(
+        fields=["recID"] + EXCLUSOIONS_SUBJECT_COLUMNS, formula=None
+    )
+    assert set(df.columns) == set(EXCLUSOIONS_SUBJECT_COLUMNS)
+    assert df.equals(EXCLUSIONS_DF)

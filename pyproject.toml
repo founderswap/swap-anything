@@ -50,7 +50,7 @@ dependencies = [
 [tool.setuptools_scm]
 
 [project.optional-dependencies]
-dev = ["black", "ruff", "pre-commit"]
+dev = ["black", "ruff", "pre-commit", "setuptools-scm"]
 
 test = ["pytest", "pytest-cov", "Faker"]
 

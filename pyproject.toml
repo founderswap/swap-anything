@@ -2,12 +2,13 @@
 # Software usage is hereby granted to the customer according to the terms in LICENSE file.
 
 [build-system]
-requires = ["setuptools>=61.0.0"]
+requires = ["setuptools>=60", "setuptools-scm>=8.0"]
 build-backend = "setuptools.build_meta"
 
 [project]
 name = "swap-anything"
-version = "0.0.1"
+# version = ""
+dynamic = ["version"]
 description = "A mix and match (swap) library to empower swapping-based projects."
 authors = [
   { name = "@ggbaro", email = "46573388+ggbaro@users.noreply.github.com" },
@@ -45,6 +46,8 @@ dependencies = [
   "pyairtable>=1.5.0,<1.6",
   "pydantic-settings",
 ]
+
+[tool.setuptools_scm]
 
 [project.optional-dependencies]
 dev = ["black", "ruff", "pre-commit"]

@@ -61,7 +61,7 @@ be = backend.SimpleBackend(
    availability_subject_column="subject",
 )
 
-matches = be.get_all_matches()
+all_possible_matches = be.get_all_matches()
 #                    subject    availability
 # 0    (Barbarianna, Katana)        (12:00,)
 # 1    (Hackerman, KungFury)        (10:00,)
@@ -71,7 +71,7 @@ matches = be.get_all_matches()
 # 5   (KungFury, Triceracop)         (9:00,)
 # 6            (T-Rex, Thor)        (15:00,)
 
-select_matches(matches, backend=be)
+select_matches(all_possible_matches, backend=be)
 #                    subject    availability
 # 0    (Barbarianna, Katana)        (12:00,)
 # 1  (Hackerman, Triceracop)        (11:00,)
@@ -91,7 +91,7 @@ This way we ensure that high wality matches are selected.
 ```python
 scores = [1, 1, 1, 1, 1, 9001, 1]
 # (KungFury, Triceracop)... it's over 9000!
-select_matches(matches, backend=be, match_scores=scores)
+select_matches(all_possible_matches, backend=be, match_scores=scores)
 #                   subject availability
 # 0   (Barbarianna, Katana)     (12:00,)
 # 1  (KungFury, Triceracop)      (9:00,)

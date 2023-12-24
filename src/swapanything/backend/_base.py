@@ -38,8 +38,8 @@ def _get_matches_from_slots(
         .reset_index()
         .explode(availability_subject_column)
     )
-    matches[availability_subject_column] = matches[availability_subject_column].apply(
-        lambda x: tuple(sorted(x))
+    matches[availability_subject_column] = (
+        matches[availability_subject_column].apply(sorted).apply(tuple)
     )
     return matches
 
@@ -111,15 +111,16 @@ class BackendBase(ABC):
         #   {"avail": "B", "subj": (1, 2)}]
         # to:
         #  [{"subj": (1, 2), "avail": ("A", "B")}]
+        matches = matches.sort_values(
+            # Sort to guarantee idempotency downstream
+            [self.availability_subject_column, self.availabilities_column]
+        )
         matches = (
-            matches.sort_values(
-                # Sort to guarantee idempotency downstream
-                [self.availability_subject_column, self.availabilities_column]
-            )
-            .groupby(self.availability_subject_column, as_index=False)[
+            matches.groupby(self.availability_subject_column)[
                 [self.availabilities_column]
             ]
             .agg(tuple)
+            .reset_index()
         )
 
         if return_matching_subjects_by_slot:

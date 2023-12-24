@@ -30,7 +30,7 @@ jobs:
           python-version-file: pyproject.toml
 
       - name: Install Python dependencies
-        run: pip install --disable-pip-version-check -e .[test]
+        run: pip install --disable-pip-version-check -e .[all,test]
 
       - name: Run tests
         run: pytest --cov=src --cov-report=xml tests

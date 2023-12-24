@@ -1,8 +1,12 @@
 from abc import ABC, abstractmethod
 from itertools import combinations
-from typing import Annotated, Iterable
+from typing import Annotated, Iterable, TypeVar
 
 import pandas as pd
+
+
+class BackendError(Exception):
+    pass
 
 
 def _get_matching_subjects_by_slot(
@@ -102,7 +106,26 @@ class BackendBase(ABC):
                 exclusions_subject_columns=self.exclusions_subject_columns,
             )
 
+        # go from:
+        #  [{"avail": "A", "subj": (1, 2)},
+        #   {"avail": "B", "subj": (1, 2)}]
+        # to:
+        #  [{"subj": (1, 2), "avail": ("A", "B")}]
+        matches = (
+            matches.sort_values(
+                # Sort to guarantee idempotency downstream
+                [self.availability_subject_column, self.availabilities_column]
+            )
+            .groupby(self.availability_subject_column, as_index=False)[
+                [self.availabilities_column]
+            ]
+            .agg(tuple)
+        )
+
         if return_matching_subjects_by_slot:
             return matches, matching_subjects_by_slot
         else:
             return matches
+
+
+BackendType = TypeVar("BackendType", bound=BackendBase)

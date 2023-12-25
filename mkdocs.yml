@@ -50,6 +50,7 @@ plugins:
 
 markdown_extensions:
   - def_list
+  - md_in_html
   - pymdownx.superfences:
       custom_fences:
         - name: mermaid
@@ -68,3 +69,14 @@ markdown_extensions:
 
   # embed code
   - pymdownx.snippets
+
+nav:
+- Swap Anything: index.md
+- Getting Started: getting-started.md
+- Api Reference:
+  - swapanything:
+    - api-reference/swapanything/index.md
+    - backend:
+      - api-reference/swapanything/backend/simple.md
+      - api-reference/swapanything/backend/airtable.md
+    - select: api-reference/swapanything/select.md

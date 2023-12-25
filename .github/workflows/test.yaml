@@ -14,8 +14,7 @@ concurrency:
   cancel-in-progress: false
 
 jobs:
-  # Single deploy job since we're just deploying
-  deploy:
+  test:
     runs-on: ubuntu-latest
     timeout-minutes: 10
 
@@ -31,7 +30,7 @@ jobs:
           python-version-file: pyproject.toml
 
       - name: Install Python dependencies
-        run: pip install --disable-pip-version-check -e .[test]
+        run: pip install --disable-pip-version-check -e .[all,test]
 
       - name: Run tests
         run: pytest --cov=src --cov-report=xml tests

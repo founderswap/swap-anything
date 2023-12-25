@@ -108,10 +108,10 @@ def test_base_backend():
         def get_availabilities(self) -> pd.DataFrame:
             return pd.DataFrame(
                 [
+                    ["sub3", "A"],
                     ["sub1", "A"],
                     ["sub2", "B"],
                     ["sub5", "A"],
-                    ["sub3", "A"],
                     ["sub4", "C"],
                 ],
                 columns=[SUBJ_COL, AVAIL_COL],
@@ -127,11 +127,10 @@ def test_base_backend():
 
     expected_result = pd.DataFrame(
         [
-            ["A", ("sub1", "sub5")],
-            ["A", ("sub3", "sub5")],
+            [("sub1", "sub5"), ("A",)],
+            [("sub3", "sub5"), ("A",)],
         ],
-        columns=["avail", SUBJ_COL],
-        index=[0, 0],
+        columns=[SUBJ_COL, "avail"],
     )
 
     be = TestBackend()

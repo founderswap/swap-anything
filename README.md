@@ -86,7 +86,7 @@ With `select_matches` you can use match scores, and the
 algorithm will try to maximize number of matches and total
 score!
 
-This way we ensure that high wality matches are selected.
+This way we ensure that high quality matches are selected.
 
 ```python
 scores = [1, 1, 1, 1, 1, 9001, 1]

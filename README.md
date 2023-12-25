@@ -7,14 +7,14 @@ A mix and match (swap) library to empower swapping-based projects.
 [![codecov](https://codecov.io/gh/founderswap/swap-anything/graph/badge.svg?token=QF6L5Y8EPM)](https://codecov.io/gh/founderswap/swap-anything)
 [![PyPI version](https://badge.fury.io/py/swap-anything.svg)](https://badge.fury.io/py/swap-anything)
 
-> NOTE: `swapanything` is still in its proof-of-concept phase (some
-> of the things in readme are not implemented yet!). If you want to
+> NOTE: `swapanything` is still in its early steps. If you want to
 > contribute or sponsor this project, visit
 > [www.founderswap.xyz](https://www.founderswap.xyz)
 
 ## Quickstart
 
-Check the [developer guide](./docs/about/developer-guide.md)
+> Want to develop with us?
+> Check the [developer guide](./docs/about/developer-guide.md)
 
 
 ### Your first matching round

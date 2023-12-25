@@ -7,16 +7,144 @@ A mix and match (swap) library to empower swapping-based projects.
 [![codecov](https://codecov.io/gh/founderswap/swap-anything/graph/badge.svg?token=QF6L5Y8EPM)](https://codecov.io/gh/founderswap/swap-anything)
 [![PyPI version](https://badge.fury.io/py/swap-anything.svg)](https://badge.fury.io/py/swap-anything)
 
-> NOTE: `swapanything` is still in its proof-of-concept phase (some
-> of the things in readme are not implemented yet!). If you want to
+> NOTE: `swapanything` is still in its early steps. If you want to
 > contribute or sponsor this project, visit
 > [www.founderswap.xyz](https://www.founderswap.xyz)
 
 ## Quickstart
 
-Check the [developer guide](./docs/about/developer-guide.md)
+> Want to develop with us?
+> Check the [developer guide](./docs/about/developer-guide.md)
 
-### Using CLI (example)
+
+### Your first matching round
+
+This library allow you to match subjects (people, things, whatever) depending
+on their availability slots (calendar slots, timeframe, location,
+any combination of the abovementioned). Truly, you can use this library as
+backend for any sort of matching need.
+
+The simplest way to test this library is to use the `swapanything` python
+package to make a simple swapping exercise.
+
+```python
+from swapanything.backend import simple as backend
+from swapanything.select import select_matches
+import pandas as pd
+
+availabilities = [
+   ["KungFury", "9:00"],
+   ["KungFury", "10:00"],
+   ["KungFury", "13:00"],
+   ["KungFury", "14:00"],
+   ["Triceracop", "9:00"],
+   ["Triceracop", "11:00"],
+   ["Hackerman", "10:00"],
+   ["Hackerman", "11:00"],
+   ["Katana", "12:00"],
+   ["Barbarianna", "12:00"],
+   ["Thor", "13:00"],
+   ["Thor", "14:00"],
+   ["Thor", "15:00"],
+   ["T-Rex", "15:00"],
+   ["T-Rex", "16:00"],
+   ["Hoff 9000", "16:00"],
+]
+
+availabilities_df = pd.DataFrame(
+   availabilities, columns=["subject", "availability"]
+)
+
+be = backend.SimpleBackend(
+   availabilities=availabilities_df,
+   availabilities_column="availability",
+   availability_subject_column="subject",
+)
+
+all_possible_matches = be.get_all_matches()
+#                    subject    availability
+# 0    (Barbarianna, Katana)        (12:00,)
+# 1    (Hackerman, KungFury)        (10:00,)
+# 2  (Hackerman, Triceracop)        (11:00,)
+# 3       (Hoff 9000, T-Rex)        (16:00,)
+# 4         (KungFury, Thor)  (13:00, 14:00)
+# 5   (KungFury, Triceracop)         (9:00,)
+# 6            (T-Rex, Thor)        (15:00,)
+
+select_matches(all_possible_matches, backend=be)
+#                    subject    availability
+# 0    (Barbarianna, Katana)        (12:00,)
+# 1  (Hackerman, Triceracop)        (11:00,)
+# 2       (Hoff 9000, T-Rex)        (16:00,)
+# 3         (KungFury, Thor)  (13:00, 14:00)
+
+```
+
+Imagine now that we want to provide a super high importance
+to the match `(KungFury, Triceracop)`.
+With `select_matches` you can use match scores, and the
+algorithm will try to maximize number of matches and total
+score!
+
+This way we ensure that high quality matches are selected.
+
+```python
+scores = [1, 1, 1, 1, 1, 9001, 1]
+# (KungFury, Triceracop)... it's over 9000!
+select_matches(all_possible_matches, backend=be, match_scores=scores)
+#                   subject availability
+# 0   (Barbarianna, Katana)     (12:00,)
+# 1  (KungFury, Triceracop)      (9:00,)
+# 2           (T-Rex, Thor)     (15:00,)
+
+```
+
+### Advanced Backends
+
+With python, it is possible to integrate `swapanything` in your application
+or custom tool. `swapanything` comes with some pre-configured data backends
+(e.g. Airtable, Excel Spreadsheets, SQL) that you can easily use to
+kickstart your swaping-based app!
+
+#### Airtable
+
+Install airtable dependencies:
+
+```shell
+pip install swap-anything[airtable]
+```
+
+```python
+from swapanything.backend import airtable
+from swapanything.select import select_matches
+import os
+
+
+airtable_backend = airtable.AirTableBackend(
+    # subject_id is the record id of the subjects table
+    subject_features=["Interests", "Tags", "Score1", "Score2"],
+    availability_subject_column="AvailabilitiesSubjectId",
+    availabilities_column="Availabilities",
+    exclusions_subject_columns=["Subject1", "Subject2"]
+    # Tables
+    subjects_table_name="Subjects",
+    availabilities_table_name="Availabilities",
+    exclusions_table_name="Matches",
+    # Airtable credentials
+    client_id=os.environ["AIRTABLE_BASE_ID"],
+    client_secret=os.environ["AIRTABLE_API_KEY"],
+)
+
+subjects = airtable_backend.get_subjects()
+availabilities = airtable_backend.get_availabilities()
+
+all_matches = be.get_all_matches(exclusions=True)
+selected = select_matches(matches, backend=airtable_backend)
+```
+
+### Using CLI (POC)
+
+> This part is in proof of concept stage. Yet to be done!
 
 You can start swapping using spreadsheets as sources/destinations of data.
 Let's prepare 3 files:
@@ -71,44 +199,3 @@ This will result in the following `output.xlsx`, containing all new matches:
 | subject1 | subject2 | slot             |
 | :------- | :------- | :--------------- |
 | sub001   | sub002   | 2023-01-01 15:30 |
-
-### Using the Python API
-
-With python, it is possible to integrate `swapanything` in your application
-or custom tool. `swapanything` comes with some pre-configured data backends
-(e.g. Airtable, Excel Spreadsheets, SQL) that you can easily use to
-kickstart your swaping-based app!
-
-```python
-from swapanything.backend import airtable as be
-from swapanything import Scorer, Selector, Swapper
-import os
-
-
-data_backend = be.AirTableBackend(
-    # subject_id is the record id of the subjects table
-    subject_features=["Interests", "Tags", "Score1", "Score2"],
-    availability_subject_column="AvailabilitiesSubjectId",
-    availabilities_column="Availabilities",
-    exclusions_subject_columns=["Subject1", "Subject2"]
-    # Tables
-    subjects_table_name="Subjects",
-    availabilities_table_name="Availabilities",
-    exclusions_table_name="Matches",
-    # Airtable credentials
-    client_id=os.environ["AIRTABLE_BASE_ID"],
-    client_secret=os.environ["AIRTABLE_API_KEY"],
-)
-
-match_scorer = Scorer(model="simple")
-selector = Selector(relevance_weight=.5, total_number_weight=.5)
-model = Swapper(scorer=match_scorer, selector=selector)
-
-exclusions = data_backend.get_exclusions()
-all_possible_matches = data_backend.get_matches(exclusions=exclusions)
-subjects = data_backend.get_subjects()
-
-match_scores = model.score(all_possible_matches, subjects)
-matches = model.select(match_scores)
-
-```

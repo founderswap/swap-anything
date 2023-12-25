@@ -9,4 +9,4 @@ dependencies:
   - python-dotenv
   - matplotlib
   - pip:
-      - -e .[dev,test,docs]
+      - -e .[all,dev,test,docs]

@@ -3,7 +3,7 @@ from unittest.mock import MagicMock
 
 import pandas as pd
 import pytest
-from swapanything.backend import airtable as be
+from swapanything_backend import airtable as be
 
 
 @pytest.fixture

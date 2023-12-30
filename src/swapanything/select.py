@@ -4,41 +4,45 @@ import networkx as nx
 import numpy as np
 import pandas as pd
 
-from .backend import BackendType
-
 
 def select_matches(
     matches: pd.DataFrame,
-    backend: BackendType,
+    subjects_col: str,
+    slots_col: str,
     match_scores: Optional[pd.Series] = None,
     maxcardinality: Optional[bool] = None,
+    return_graph: bool = False,
 ) -> pd.DataFrame:
-    assert matches[backend.availability_subject_column].is_unique
+    assert matches[subjects_col].is_unique
 
-    _matches = matches[backend.availability_subject_column].apply(pd.Series)
-    _matches.columns = ("s1", "s2")
+    _matches = matches[subjects_col].apply(pd.Series)
+    _matches.columns = ("_s1", "_s2")
+    _matches[slots_col] = matches[slots_col]
     if isinstance(match_scores, Iterable):
-        _matches["score"] = np.array(match_scores)
+        _matches["_score"] = np.array(match_scores)
         maxcardinality = maxcardinality or False
     else:
-        _matches["score"] = 1
+        _matches["_score"] = 1
         maxcardinality = True
 
-    G = nx.from_pandas_edgelist(_matches, "s1", "s2", ["score"])
+    G = nx.from_pandas_edgelist(_matches, "_s1", "_s2", ["_score", slots_col])
     results_weighted = nx.algorithms.matching.max_weight_matching(
-        G, maxcardinality=maxcardinality, weight="score"
+        G, maxcardinality=maxcardinality, weight="_score"
     )
     results_weighted = pd.Index(
         {tuple(sorted(x)) for x in results_weighted},
         tupleize_cols=False,
-        name=backend.availability_subject_column,
+        name=subjects_col,
     )
 
     selected = (
-        matches.set_index(backend.availability_subject_column)
+        matches.set_index(subjects_col)
         .reindex(pd.Index(results_weighted, tupleize_cols=False))
         .sort_index()
         .reset_index()
     )
 
-    return selected
+    if return_graph:
+        return selected, G
+    else:
+        return selected

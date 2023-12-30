@@ -4,7 +4,7 @@ import pandas as pd
 import pytest
 from faker import Faker
 from faker.providers import DynamicProvider
-from swapanything.backend import simple as backend
+from swapanything.prep import get_all_matches
 from swapanything.select import select_matches
 
 n = 42
@@ -194,17 +194,22 @@ def test_large_dateset(
 ):
     _, availabilities, exclusions = get_large_datasets
 
-    be = backend.SimpleBackend(
-        availabilities=availabilities,
-        availabilities_column="Availabilities",
-        availability_subject_column="Index",
-    )
+    slots_col = "Availabilities"
+    subjects_col = "Index"
 
-    all_possible_matches = be.get_all_matches()
+    all_possible_matches = get_all_matches(
+        availabilities=availabilities,
+        subject_col=subjects_col,
+        slot_col=slots_col,
+    )
     assert isinstance(all_possible_matches, pd.DataFrame)
     assert all_possible_matches["Index"].is_unique
 
-    selected = select_matches(all_possible_matches, backend=be)
+    selected = select_matches(
+        all_possible_matches,
+        subjects_col=subjects_col,
+        slots_col=slots_col,
+    )
     assert isinstance(selected, pd.DataFrame)
     assert selected["Index"].is_unique
     assert len(selected) < len(all_possible_matches)

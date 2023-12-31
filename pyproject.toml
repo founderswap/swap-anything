@@ -12,6 +12,8 @@ dynamic = ["version"]
 description = "A mix and match (swap) library to empower swapping-based projects."
 authors = [
   { name = "@ggbaro", email = "46573388+ggbaro@users.noreply.github.com" },
+  { name = "@CheckSim" },
+  { name = "@LFK01" },
 ]
 maintainers = [
   { name = "@ggbaro", email = "46573388+ggbaro@users.noreply.github.com" },

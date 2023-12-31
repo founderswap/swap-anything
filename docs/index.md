@@ -7,7 +7,7 @@ hide:
 # Swap Anything Docs
 
 <div class="grid" markdown>
-<img alt="swap-anything-logo" src="/static/founderswap-logo.jpg">
+<img alt="swap-anything-logo" src="./static/founderswap-logo.jpg">
 <div markdown>
 # Welcome to Swap Anything!
 

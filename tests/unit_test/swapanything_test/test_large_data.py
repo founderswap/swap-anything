@@ -9,7 +9,7 @@ from swapanything.prep import get_all_matches
 from swapanything.select import select_matches
 
 n = 42
-samples = 1000
+samples = 500
 
 seed(n)
 index = [f"Sub{i+1}" for i in range(samples)]

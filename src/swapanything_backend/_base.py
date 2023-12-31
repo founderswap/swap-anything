@@ -9,7 +9,7 @@ class BackendError(Exception):
 
 
 class BackendBase(ABC):
-    subject_features: list[str]
+    subject_features: Iterable[str]
     availability_subject_column: str
     availabilities_column: str
     exclusions_subject_columns: Annotated[Iterable[str], 2]

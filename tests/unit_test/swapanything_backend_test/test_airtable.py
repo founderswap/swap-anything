@@ -1,4 +1,5 @@
 import re
+from typing import List
 from unittest.mock import MagicMock
 
 import pandas as pd
@@ -27,9 +28,9 @@ def mock_airtable_env_vars(
 @pytest.fixture
 def mock_airtable(
     monkeypatch: pytest.MonkeyPatch,
-    CLEAN_SUBJECTS_RECORDS: list[dict],
-    CLEAN_AVAILABILITIES_RECORDS: list[dict],
-    CLEAN_EXCLUSIONS_RECORDS: list[dict],
+    CLEAN_SUBJECTS_RECORDS: List[dict],
+    CLEAN_AVAILABILITIES_RECORDS: List[dict],
+    CLEAN_EXCLUSIONS_RECORDS: List[dict],
     SUBJECTS_TABLE_NAME: str,
     AVAILABILITIES_TABLE_NAME: str,
     EXCLUSIONS_TABLE_NAME: str,
@@ -40,7 +41,7 @@ def mock_airtable(
     mock_airtable = MagicMock(be.airtable.Table)  # type: ignore
     mock_airtable.return_value = mock_airtable
 
-    def get_records(*args, **kwargs) -> list[dict]:
+    def get_records(*args, **kwargs) -> List[dict]:
         table_name = mock_airtable.call_args[1]["table_name"]
         if table_name == SUBJECTS_TABLE_NAME:
             return CLEAN_SUBJECTS_RECORDS
@@ -59,13 +60,13 @@ def mock_airtable(
 
 @pytest.fixture
 def airtable_backend(
-    SUBJECT_FEATURES: list[str],
+    SUBJECT_FEATURES: List[str],
     AVAILABILITY_SUBJECT_COLUMN: str,
     AVAILABILITIES_COLUMN: str,
     SUBJECTS_TABLE_NAME: str,
     AVAILABILITIES_TABLE_NAME: str,
     EXCLUSIONS_TABLE_NAME: str,
-    EXCLUSOIONS_SUBJECT_COLUMNS: list[str],
+    EXCLUSOIONS_SUBJECT_COLUMNS: List[str],
     mock_airtable: None,
 ) -> be.AirTableBackend:
     backend = be.AirTableBackend(  # type: ignore
@@ -104,7 +105,7 @@ def test__get_table(
     BASE_ID: str,
     API_KEY: str,
     SUBJECTS_TABLE_NAME: str,
-    CLEAN_SUBJECTS_RECORDS: list[dict],
+    CLEAN_SUBJECTS_RECORDS: List[dict],
     SUBJECT_FEATURES: str,
 ) -> None:
     """Test the general method to retrieve a table using pyairtable SDK."""
@@ -132,7 +133,7 @@ def test_get_subjects(
     airtable_backend: be.AirTableBackend,
     mock_airtable: MagicMock,
     SUBJECTS_TABLE_NAME: str,
-    SUBJECT_FEATURES: list[str],
+    SUBJECT_FEATURES: List[str],
     SUBJECTS_DF: pd.DataFrame,
     BASE_ID: str,
     API_KEY: str,
@@ -174,7 +175,7 @@ def test_get_exclustions(
     airtable_backend: be.AirTableBackend,
     mock_airtable: MagicMock,
     EXCLUSIONS_TABLE_NAME: str,
-    EXCLUSOIONS_SUBJECT_COLUMNS: list[str],
+    EXCLUSOIONS_SUBJECT_COLUMNS: List[str],
     EXCLUSIONS_DF: pd.DataFrame,
     BASE_ID: str,
     API_KEY: str,

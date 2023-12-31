@@ -1,4 +1,5 @@
 from random import randint, seed
+from typing import Tuple
 
 import pandas as pd
 import pytest
@@ -143,7 +144,7 @@ fake.add_provider(goals_provider)
 
 
 @pytest.fixture(scope="session")
-def get_large_datasets() -> tuple[pd.DataFrame, pd.DataFrame, pd.DataFrame]:
+def get_large_datasets() -> Tuple[pd.DataFrame, pd.DataFrame, pd.DataFrame]:
     # Creation syntetic data
     name = [fake.unique.name() for _ in range(samples)]
 
@@ -190,7 +191,7 @@ def get_large_datasets() -> tuple[pd.DataFrame, pd.DataFrame, pd.DataFrame]:
 
 
 def test_large_dateset(
-    get_large_datasets: tuple[pd.DataFrame, pd.DataFrame, pd.DataFrame],
+    get_large_datasets: Tuple[pd.DataFrame, pd.DataFrame, pd.DataFrame],
 ):
     _, availabilities, exclusions = get_large_datasets
 

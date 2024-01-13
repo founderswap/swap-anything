@@ -1,7 +1,7 @@
 import json
 from copy import deepcopy
 from pathlib import Path
-from typing import Annotated
+from typing import Annotated, List
 
 import pandas as pd
 import pytest
@@ -33,7 +33,7 @@ def EXCLUSIONS_TABLE_NAME() -> str:
 
 
 @pytest.fixture
-def SUBJECT_FEATURES() -> list[str]:
+def SUBJECT_FEATURES() -> List[str]:
     subject_features = [
         "Growth Stage",
         "Goals",
@@ -56,28 +56,28 @@ def AVAILABILITIES_COLUMN() -> str:
 
 
 @pytest.fixture
-def EXCLUSOIONS_SUBJECT_COLUMNS() -> Annotated[list[str], 2]:
+def EXCLUSOIONS_SUBJECT_COLUMNS() -> Annotated[List[str], 2]:
     return ["subj1", "subj2"]
 
 
 @pytest.fixture
-def SUBJECTS_RECORDS() -> list[AirtableRecord]:
+def SUBJECTS_RECORDS() -> List[AirtableRecord]:
     return json.loads((__data__ / "subjects_records.json").read_bytes())
 
 
 @pytest.fixture
-def AVAILABILITIES_RECORDS() -> list[AirtableRecord]:
+def AVAILABILITIES_RECORDS() -> List[AirtableRecord]:
     return json.loads((__data__ / "availabilities_records.json").read_bytes())
 
 
 @pytest.fixture
-def EXCLUSIONS_RECORDS() -> list[AirtableRecord]:
+def EXCLUSIONS_RECORDS() -> List[AirtableRecord]:
     return json.loads((__data__ / "exclusions_records.json").read_bytes())
 
 
 def _cleanup_record(
     r: AirtableRecord,
-    cols: list[str],
+    cols: List[str],
 ) -> AirtableRecord:
     r = deepcopy(r)
     r["fields"] = {k: v for k, v in r["fields"].items() if k in cols}
@@ -86,16 +86,16 @@ def _cleanup_record(
 
 @pytest.fixture
 def CLEAN_SUBJECTS_RECORDS(
-    SUBJECTS_RECORDS: list[AirtableRecord], SUBJECT_FEATURES: list[str]
-) -> list[AirtableRecord]:
+    SUBJECTS_RECORDS: List[AirtableRecord], SUBJECT_FEATURES: List[str]
+) -> List[AirtableRecord]:
     rec = [_cleanup_record(r, ["recID"] + SUBJECT_FEATURES) for r in SUBJECTS_RECORDS]
     return rec
 
 
 @pytest.fixture
 def CLEAN_EXCLUSIONS_RECORDS(
-    EXCLUSIONS_RECORDS: list[AirtableRecord], EXCLUSOIONS_SUBJECT_COLUMNS: list[str]
-) -> list[AirtableRecord]:
+    EXCLUSIONS_RECORDS: List[AirtableRecord], EXCLUSOIONS_SUBJECT_COLUMNS: List[str]
+) -> List[AirtableRecord]:
     rec = [
         _cleanup_record(r, ["recID"] + EXCLUSOIONS_SUBJECT_COLUMNS)
         for r in EXCLUSIONS_RECORDS
@@ -105,10 +105,10 @@ def CLEAN_EXCLUSIONS_RECORDS(
 
 @pytest.fixture
 def CLEAN_AVAILABILITIES_RECORDS(
-    AVAILABILITIES_RECORDS: list[AirtableRecord],
+    AVAILABILITIES_RECORDS: List[AirtableRecord],
     AVAILABILITIES_COLUMN: str,
     AVAILABILITY_SUBJECT_COLUMN: str,
-) -> list[AirtableRecord]:
+) -> List[AirtableRecord]:
     rec = [
         _cleanup_record(
             r, ["recID", AVAILABILITIES_COLUMN, AVAILABILITY_SUBJECT_COLUMN]
@@ -119,7 +119,7 @@ def CLEAN_AVAILABILITIES_RECORDS(
 
 
 @pytest.fixture
-def SUBJECTS_DF(CLEAN_SUBJECTS_RECORDS: list[AirtableRecord]) -> pd.DataFrame:
+def SUBJECTS_DF(CLEAN_SUBJECTS_RECORDS: List[AirtableRecord]) -> pd.DataFrame:
     records = (
         pd.DataFrame(r["fields"] for r in CLEAN_SUBJECTS_RECORDS)
         .rename(columns={"recID": "subject_id"})
@@ -130,7 +130,7 @@ def SUBJECTS_DF(CLEAN_SUBJECTS_RECORDS: list[AirtableRecord]) -> pd.DataFrame:
 
 @pytest.fixture
 def AVAILABILITIES_DF(
-    CLEAN_AVAILABILITIES_RECORDS: list[AirtableRecord],
+    CLEAN_AVAILABILITIES_RECORDS: List[AirtableRecord],
     AVAILABILITY_SUBJECT_COLUMN: str,
     AVAILABILITIES_COLUMN: str,
 ) -> pd.DataFrame:
@@ -149,7 +149,7 @@ def AVAILABILITIES_DF(
 
 
 @pytest.fixture
-def EXCLUSIONS_DF(CLEAN_EXCLUSIONS_RECORDS: list[AirtableRecord]) -> pd.DataFrame:
+def EXCLUSIONS_DF(CLEAN_EXCLUSIONS_RECORDS: List[AirtableRecord]) -> pd.DataFrame:
     records = (
         pd.DataFrame(r["fields"] for r in CLEAN_EXCLUSIONS_RECORDS)
         .rename(columns={"recID": "exclusion_id"})

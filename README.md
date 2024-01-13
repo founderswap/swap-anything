@@ -28,40 +28,38 @@ The simplest way to test this library is to use the `swapanything` python
 package to make a simple swapping exercise.
 
 ```python
-from swapanything.backend import simple as backend
-from swapanything.select import select_matches
+from swapanything import prep, select
 import pandas as pd
 
-availabilities = [
-   ["KungFury", "9:00"],
-   ["KungFury", "10:00"],
-   ["KungFury", "13:00"],
-   ["KungFury", "14:00"],
-   ["Triceracop", "9:00"],
-   ["Triceracop", "11:00"],
-   ["Hackerman", "10:00"],
-   ["Hackerman", "11:00"],
-   ["Katana", "12:00"],
-   ["Barbarianna", "12:00"],
-   ["Thor", "13:00"],
-   ["Thor", "14:00"],
-   ["Thor", "15:00"],
-   ["T-Rex", "15:00"],
-   ["T-Rex", "16:00"],
-   ["Hoff 9000", "16:00"],
-]
-
-availabilities_df = pd.DataFrame(
-   availabilities, columns=["subject", "availability"]
+availabilities = pd.DataFrame(
+   [
+      ["KungFury", "9:00"],
+      ["KungFury", "10:00"],
+      ["KungFury", "13:00"],
+      ["KungFury", "14:00"],
+      ["Triceracop", "9:00"],
+      ["Triceracop", "11:00"],
+      ["Hackerman", "10:00"],
+      ["Hackerman", "11:00"],
+      ["Katana", "12:00"],
+      ["Barbarianna", "12:00"],
+      ["Thor", "13:00"],
+      ["Thor", "14:00"],
+      ["Thor", "15:00"],
+      ["T-Rex", "15:00"],
+      ["T-Rex", "16:00"],
+      ["Hoff 9000", "16:00"],
+   ],
+   columns=["subject", "availability"]
 )
 
-be = backend.SimpleBackend(
-   availabilities=availabilities_df,
-   availabilities_column="availability",
-   availability_subject_column="subject",
+all_possible_matches = prep.get_all_matches(
+   availabilities,
+   subject_col="subject",
+   slot_col="availability",
+   subjects_new_col_name="subjects",
+   slots_new_col_name="availabilities",
 )
-
-all_possible_matches = be.get_all_matches()
 #                    subject    availability
 # 0    (Barbarianna, Katana)        (12:00,)
 # 1    (Hackerman, KungFury)        (10:00,)
@@ -71,13 +69,16 @@ all_possible_matches = be.get_all_matches()
 # 5   (KungFury, Triceracop)         (9:00,)
 # 6            (T-Rex, Thor)        (15:00,)
 
-select_matches(all_possible_matches, backend=be)
-#                    subject    availability
+select.select_matches(
+   all_possible_matches,
+   subjects_col="subjects",
+   slots_col="availabilities",
+)
+#                   subjects  availabilities
 # 0    (Barbarianna, Katana)        (12:00,)
 # 1  (Hackerman, Triceracop)        (11:00,)
 # 2       (Hoff 9000, T-Rex)        (16:00,)
 # 3         (KungFury, Thor)  (13:00, 14:00)
-
 ```
 
 Imagine now that we want to provide a super high importance
@@ -91,12 +92,16 @@ This way we ensure that high quality matches are selected.
 ```python
 scores = [1, 1, 1, 1, 1, 9001, 1]
 # (KungFury, Triceracop)... it's over 9000!
-select_matches(all_possible_matches, backend=be, match_scores=scores)
+select.select_matches(
+   all_possible_matches,
+   match_scores=scores,
+   subjects_col="subjects",
+   slots_col="availabilities",
+)
 #                   subject availability
 # 0   (Barbarianna, Katana)     (12:00,)
 # 1  (KungFury, Triceracop)      (9:00,)
 # 2           (T-Rex, Thor)     (15:00,)
-
 ```
 
 ### Advanced Backends
@@ -115,12 +120,12 @@ pip install swap-anything[airtable]
 ```
 
 ```python
-from swapanything.backend import airtable
-from swapanything.select import select_matches
+from swapanything import prep, select
+from swapanything_backend import airtable as backend
 import os
 
 
-airtable_backend = airtable.AirTableBackend(
+be = backend.AirTableBackend(
     # subject_id is the record id of the subjects table
     subject_features=["Interests", "Tags", "Score1", "Score2"],
     availability_subject_column="AvailabilitiesSubjectId",
@@ -135,11 +140,21 @@ airtable_backend = airtable.AirTableBackend(
     client_secret=os.environ["AIRTABLE_API_KEY"],
 )
 
-subjects = airtable_backend.get_subjects()
-availabilities = airtable_backend.get_availabilities()
+subjects = be.get_subjects()
+availabilities = be.get_availabilities()
 
-all_matches = be.get_all_matches(exclusions=True)
-selected = select_matches(matches, backend=airtable_backend)
+all_possible_matches = prep.get_all_matches(
+   availabilities,
+   subject_col=be.availability_subject_column,
+   slot_col=be.availabilities_column,
+   subjects_new_col_name="subjects",
+   slots_new_col_name="availabilities",
+)
+select.select_matches(
+   all_possible_matches,
+   subjects_col="subjects",
+   slots_col="availabilities",
+)
 ```
 
 ### Using CLI (POC)

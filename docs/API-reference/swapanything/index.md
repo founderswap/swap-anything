@@ -1,3 +1,0 @@
-# swapanything
-
-::: swapanything

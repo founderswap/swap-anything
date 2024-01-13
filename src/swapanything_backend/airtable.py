@@ -1,5 +1,5 @@
 from collections.abc import Iterator
-from typing import Annotated, Iterable
+from typing import Annotated, Iterable, List
 
 import pandas as pd
 import pyairtable as airtable
@@ -17,7 +17,7 @@ class AirtableRecord(BaseModel):
 
 
 class AirtableResponse(BaseModel):
-    records: list[AirtableRecord]
+    records: List[AirtableRecord]
 
     def iter_records(self) -> Iterator[dict]:
         for record in self.records:
@@ -31,7 +31,7 @@ class AirtableResponse(BaseModel):
 class AirTableBackend(BaseSettings, BackendBase):
     # Manually adding again to help pylance and other
     # linters not to get crazy
-    subject_features: list[str]
+    subject_features: List[str]
     availability_subject_column: str
     availabilities_column: str
     exclusions_subject_columns: Annotated[Iterable[str], 2]
@@ -48,7 +48,7 @@ class AirTableBackend(BaseSettings, BackendBase):
         self,
         table_name: str,
         **options,
-    ) -> list[dict]:
+    ) -> List[dict]:
         table = airtable.Table(  # type: ignore
             api_key=self.client_secret.get_secret_value(),
             base_id=self.client_id.get_secret_value(),

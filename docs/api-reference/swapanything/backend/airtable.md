@@ -1,3 +1,0 @@
-# airtable
-
-::: swapanything.backend.airtable

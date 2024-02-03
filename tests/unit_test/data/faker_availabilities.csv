@@ -1,0 +1,1535 @@
+,Index,Nome e Cognome,Availabilities
+0,Sub1,Camilla Asmundo-Leone,Fri 12:00
+0,Sub1,Camilla Asmundo-Leone,Mon 10:00
+0,Sub1,Camilla Asmundo-Leone,Mon 16:00
+0,Sub1,Camilla Asmundo-Leone,Mon 12:00
+1,Sub2,Gianfranco Cilea,Fri 16:00
+1,Sub2,Gianfranco Cilea,Fri 12:00
+1,Sub2,Gianfranco Cilea,Thu 16:00
+1,Sub2,Gianfranco Cilea,Mon 16:00
+1,Sub2,Gianfranco Cilea,Mon 10:00
+2,Sub3,Dott. Tatiana Verdone,Thu 18:00
+2,Sub3,Dott. Tatiana Verdone,Mon 12:00
+2,Sub3,Dott. Tatiana Verdone,Mon 10:00
+2,Sub3,Dott. Tatiana Verdone,Mon 10:00
+2,Sub3,Dott. Tatiana Verdone,Mon 16:00
+3,Sub4,Piersanti Balbi,Mon 12:00
+3,Sub4,Piersanti Balbi,Fri 18:00
+3,Sub4,Piersanti Balbi,Fri 16:00
+3,Sub4,Piersanti Balbi,Fri 12:00
+4,Sub5,Carmelo Galeati,Thu 10:00
+4,Sub5,Carmelo Galeati,Thu 16:00
+5,Sub6,Toni Avogadro,Fri 18:00
+5,Sub6,Toni Avogadro,Thu 18:00
+6,Sub7,Emma Verdone,Fri 18:00
+6,Sub7,Emma Verdone,Mon 16:00
+6,Sub7,Emma Verdone,Mon 18:00
+6,Sub7,Emma Verdone,Mon 16:00
+6,Sub7,Emma Verdone,Fri 16:00
+7,Sub8,Fabia Salandra,Thu 10:00
+7,Sub8,Fabia Salandra,Fri 10:00
+8,Sub9,Gianna Alboni,Thu 18:00
+8,Sub9,Gianna Alboni,Thu 16:00
+8,Sub9,Gianna Alboni,Mon 18:00
+9,Sub10,Piersanti Morpurgo,Mon 16:00
+10,Sub11,Ermanno Gabrieli-Morandini,Fri 12:00
+10,Sub11,Ermanno Gabrieli-Morandini,Fri 18:00
+10,Sub11,Ermanno Gabrieli-Morandini,Mon 10:00
+10,Sub11,Ermanno Gabrieli-Morandini,Fri 12:00
+11,Sub12,Carmelo Parmitano,Mon 16:00
+11,Sub12,Carmelo Parmitano,Fri 18:00
+11,Sub12,Carmelo Parmitano,Thu 18:00
+12,Sub13,Micheletto Muratori,Fri 12:00
+12,Sub13,Micheletto Muratori,Mon 12:00
+12,Sub13,Micheletto Muratori,Fri 16:00
+12,Sub13,Micheletto Muratori,Thu 10:00
+12,Sub13,Micheletto Muratori,Thu 12:00
+13,Sub14,Gelsomina Battaglia,Thu 16:00
+14,Sub15,Sig.ra Ninetta Cattaneo,Mon 10:00
+14,Sub15,Sig.ra Ninetta Cattaneo,Fri 10:00
+14,Sub15,Sig.ra Ninetta Cattaneo,Mon 18:00
+14,Sub15,Sig.ra Ninetta Cattaneo,Mon 18:00
+14,Sub15,Sig.ra Ninetta Cattaneo,Mon 12:00
+15,Sub16,Aria Villarosa,Fri 10:00
+16,Sub17,Milo Ferrabosco-Bonanno,Mon 12:00
+16,Sub17,Milo Ferrabosco-Bonanno,Fri 12:00
+16,Sub17,Milo Ferrabosco-Bonanno,Thu 12:00
+17,Sub18,Gianluigi Luxardo,Fri 10:00
+18,Sub19,Gianpaolo Callegaro,Fri 10:00
+18,Sub19,Gianpaolo Callegaro,Mon 18:00
+19,Sub20,Gianna Sanguineti,Thu 18:00
+19,Sub20,Gianna Sanguineti,Fri 16:00
+19,Sub20,Gianna Sanguineti,Fri 16:00
+20,Sub21,Letizia Cuzzocrea-Paganini,Mon 18:00
+20,Sub21,Letizia Cuzzocrea-Paganini,Thu 10:00
+20,Sub21,Letizia Cuzzocrea-Paganini,Mon 10:00
+20,Sub21,Letizia Cuzzocrea-Paganini,Mon 18:00
+21,Sub22,Dott. Goffredo Bongiorno,Mon 12:00
+21,Sub22,Dott. Goffredo Bongiorno,Mon 16:00
+21,Sub22,Dott. Goffredo Bongiorno,Fri 16:00
+21,Sub22,Dott. Goffredo Bongiorno,Thu 18:00
+21,Sub22,Dott. Goffredo Bongiorno,Thu 18:00
+22,Sub23,Serena Donini,Mon 16:00
+22,Sub23,Serena Donini,Mon 16:00
+23,Sub24,Vittoria Gotti,Fri 16:00
+23,Sub24,Vittoria Gotti,Mon 10:00
+23,Sub24,Vittoria Gotti,Mon 10:00
+23,Sub24,Vittoria Gotti,Fri 16:00
+24,Sub25,Romolo Parisi,Thu 12:00
+25,Sub26,Giancarlo Mocenigo-Bertolucci,Thu 10:00
+25,Sub26,Giancarlo Mocenigo-Bertolucci,Mon 18:00
+26,Sub27,Amedeo Mennea,Thu 16:00
+26,Sub27,Amedeo Mennea,Thu 10:00
+26,Sub27,Amedeo Mennea,Thu 12:00
+26,Sub27,Amedeo Mennea,Fri 12:00
+27,Sub28,Gemma Boezio,Thu 18:00
+27,Sub28,Gemma Boezio,Mon 10:00
+27,Sub28,Gemma Boezio,Mon 12:00
+28,Sub29,Luchino Frescobaldi,Fri 18:00
+29,Sub30,Mercedes Petrassi-Sauli,Mon 10:00
+29,Sub30,Mercedes Petrassi-Sauli,Fri 10:00
+29,Sub30,Mercedes Petrassi-Sauli,Mon 16:00
+29,Sub30,Mercedes Petrassi-Sauli,Mon 16:00
+30,Sub31,Giustino Cilea,Mon 10:00
+31,Sub32,Giuseppe Renzi,Thu 18:00
+31,Sub32,Giuseppe Renzi,Fri 10:00
+31,Sub32,Giuseppe Renzi,Mon 12:00
+31,Sub32,Giuseppe Renzi,Mon 12:00
+32,Sub33,Lolita Orengo,Mon 18:00
+32,Sub33,Lolita Orengo,Fri 18:00
+32,Sub33,Lolita Orengo,Thu 18:00
+32,Sub33,Lolita Orengo,Fri 12:00
+32,Sub33,Lolita Orengo,Fri 12:00
+33,Sub34,Edoardo Tommaseo,Thu 12:00
+33,Sub34,Edoardo Tommaseo,Thu 16:00
+33,Sub34,Edoardo Tommaseo,Mon 18:00
+34,Sub35,Beatrice Bellini,Fri 18:00
+34,Sub35,Beatrice Bellini,Fri 16:00
+35,Sub36,Eraldo Curatoli,Thu 12:00
+35,Sub36,Eraldo Curatoli,Mon 18:00
+35,Sub36,Eraldo Curatoli,Mon 12:00
+35,Sub36,Eraldo Curatoli,Thu 12:00
+36,Sub37,Ludovica Boccaccio-Pavanello,Mon 18:00
+37,Sub38,Roberta Scialpi,Mon 12:00
+37,Sub38,Roberta Scialpi,Mon 18:00
+37,Sub38,Roberta Scialpi,Fri 18:00
+38,Sub39,Fortunata Visconti,Thu 16:00
+38,Sub39,Fortunata Visconti,Mon 18:00
+39,Sub40,Damiano Valier,Thu 16:00
+40,Sub41,Massimiliano Caracciolo-Magrassi,Mon 18:00
+40,Sub41,Massimiliano Caracciolo-Magrassi,Mon 12:00
+40,Sub41,Massimiliano Caracciolo-Magrassi,Thu 18:00
+41,Sub42,Diana Sansoni,Fri 12:00
+42,Sub43,Giuseppe Tasca,Thu 18:00
+42,Sub43,Giuseppe Tasca,Mon 10:00
+42,Sub43,Giuseppe Tasca,Thu 16:00
+43,Sub44,Tonino Canali,Mon 16:00
+43,Sub44,Tonino Canali,Mon 18:00
+44,Sub45,Giulietta Tomaselli-Filangieri,Fri 12:00
+44,Sub45,Giulietta Tomaselli-Filangieri,Thu 18:00
+45,Sub46,Nico Cusano,Mon 16:00
+46,Sub47,Nicoletta Abate,Thu 16:00
+46,Sub47,Nicoletta Abate,Thu 12:00
+46,Sub47,Nicoletta Abate,Mon 16:00
+47,Sub48,Ida Staglieno,Thu 18:00
+47,Sub48,Ida Staglieno,Fri 18:00
+47,Sub48,Ida Staglieno,Mon 18:00
+47,Sub48,Ida Staglieno,Fri 16:00
+48,Sub49,Costanzo Orsini,Thu 12:00
+48,Sub49,Costanzo Orsini,Thu 10:00
+49,Sub50,Gino Bevilacqua-Giusti,Mon 18:00
+49,Sub50,Gino Bevilacqua-Giusti,Thu 12:00
+49,Sub50,Gino Bevilacqua-Giusti,Mon 16:00
+49,Sub50,Gino Bevilacqua-Giusti,Mon 10:00
+50,Sub51,Aria Briccialdi,Fri 18:00
+50,Sub51,Aria Briccialdi,Fri 12:00
+50,Sub51,Aria Briccialdi,Mon 10:00
+50,Sub51,Aria Briccialdi,Thu 10:00
+51,Sub52,Sig.ra Antonia Tutino,Mon 16:00
+51,Sub52,Sig.ra Antonia Tutino,Mon 12:00
+51,Sub52,Sig.ra Antonia Tutino,Thu 18:00
+51,Sub52,Sig.ra Antonia Tutino,Thu 18:00
+51,Sub52,Sig.ra Antonia Tutino,Thu 16:00
+52,Sub53,Dionigi Siffredi,Mon 16:00
+53,Sub54,Dolores Iannuzzi,Thu 12:00
+54,Sub55,Rosa Ramazzotti,Mon 18:00
+55,Sub56,Galasso Mazzacurati,Thu 10:00
+55,Sub56,Galasso Mazzacurati,Fri 12:00
+55,Sub56,Galasso Mazzacurati,Mon 16:00
+56,Sub57,Susanna Palombi,Fri 16:00
+56,Sub57,Susanna Palombi,Fri 12:00
+57,Sub58,Nadia Salvini,Mon 16:00
+57,Sub58,Nadia Salvini,Fri 12:00
+58,Sub59,Gioffre Gasperi,Fri 10:00
+58,Sub59,Gioffre Gasperi,Mon 18:00
+58,Sub59,Gioffre Gasperi,Mon 12:00
+58,Sub59,Gioffre Gasperi,Thu 16:00
+58,Sub59,Gioffre Gasperi,Fri 10:00
+59,Sub60,Martino Argentero,Thu 18:00
+59,Sub60,Martino Argentero,Mon 18:00
+59,Sub60,Martino Argentero,Fri 12:00
+59,Sub60,Martino Argentero,Thu 18:00
+59,Sub60,Martino Argentero,Thu 18:00
+60,Sub61,Paola Giammusso,Thu 10:00
+60,Sub61,Paola Giammusso,Mon 10:00
+60,Sub61,Paola Giammusso,Fri 18:00
+60,Sub61,Paola Giammusso,Thu 16:00
+60,Sub61,Paola Giammusso,Fri 18:00
+61,Sub62,Fabia Aldobrandi,Mon 18:00
+61,Sub62,Fabia Aldobrandi,Mon 18:00
+61,Sub62,Fabia Aldobrandi,Thu 12:00
+61,Sub62,Fabia Aldobrandi,Thu 16:00
+62,Sub63,Atenulf Germano,Fri 12:00
+63,Sub64,Amedeo Montalcini,Mon 18:00
+63,Sub64,Amedeo Montalcini,Fri 12:00
+63,Sub64,Amedeo Montalcini,Mon 16:00
+64,Sub65,Uberto Giolitti,Fri 12:00
+64,Sub65,Uberto Giolitti,Mon 10:00
+65,Sub66,Sebastiano Gabba-Vattimo,Thu 16:00
+65,Sub66,Sebastiano Gabba-Vattimo,Mon 10:00
+65,Sub66,Sebastiano Gabba-Vattimo,Mon 10:00
+66,Sub67,Salvatore Golino,Thu 18:00
+67,Sub68,Loretta Favata,Fri 18:00
+68,Sub69,Cipriano Ricciardi,Fri 10:00
+68,Sub69,Cipriano Ricciardi,Mon 10:00
+69,Sub70,Sig. Piergiorgio Schiavone,Thu 16:00
+69,Sub70,Sig. Piergiorgio Schiavone,Fri 10:00
+69,Sub70,Sig. Piergiorgio Schiavone,Thu 16:00
+69,Sub70,Sig. Piergiorgio Schiavone,Thu 18:00
+70,Sub71,Dott. Sylvia Caironi,Fri 18:00
+70,Sub71,Dott. Sylvia Caironi,Mon 12:00
+70,Sub71,Dott. Sylvia Caironi,Thu 18:00
+70,Sub71,Dott. Sylvia Caironi,Thu 18:00
+70,Sub71,Dott. Sylvia Caironi,Mon 18:00
+71,Sub72,Patrizio Morlacchi,Mon 12:00
+71,Sub72,Patrizio Morlacchi,Fri 10:00
+71,Sub72,Patrizio Morlacchi,Mon 10:00
+71,Sub72,Patrizio Morlacchi,Fri 18:00
+72,Sub73,Gionata Fermi,Fri 18:00
+73,Sub74,Ricciotti Cimarosa,Thu 16:00
+74,Sub75,Elena Ligorio,Mon 18:00
+74,Sub75,Elena Ligorio,Mon 16:00
+74,Sub75,Elena Ligorio,Thu 12:00
+74,Sub75,Elena Ligorio,Thu 10:00
+75,Sub76,Flora Borromini,Mon 18:00
+75,Sub76,Flora Borromini,Fri 16:00
+75,Sub76,Flora Borromini,Mon 12:00
+75,Sub76,Flora Borromini,Mon 10:00
+75,Sub76,Flora Borromini,Thu 18:00
+76,Sub77,Paloma Cainero,Fri 16:00
+76,Sub77,Paloma Cainero,Thu 10:00
+76,Sub77,Paloma Cainero,Mon 16:00
+76,Sub77,Paloma Cainero,Fri 18:00
+76,Sub77,Paloma Cainero,Thu 18:00
+77,Sub78,Alberto Cabrini,Fri 12:00
+78,Sub79,Fabio Pisano,Fri 18:00
+78,Sub79,Fabio Pisano,Fri 12:00
+78,Sub79,Fabio Pisano,Mon 10:00
+78,Sub79,Fabio Pisano,Thu 18:00
+78,Sub79,Fabio Pisano,Thu 18:00
+79,Sub80,Maura Fuseli,Mon 16:00
+79,Sub80,Maura Fuseli,Fri 18:00
+79,Sub80,Maura Fuseli,Thu 16:00
+79,Sub80,Maura Fuseli,Mon 16:00
+79,Sub80,Maura Fuseli,Thu 12:00
+80,Sub81,Annunziata Dandolo,Fri 16:00
+80,Sub81,Annunziata Dandolo,Thu 18:00
+81,Sub82,Adelasia Pennetta,Fri 18:00
+81,Sub82,Adelasia Pennetta,Fri 16:00
+82,Sub83,Rodolfo Lucchesi-Ramazzotti,Mon 10:00
+82,Sub83,Rodolfo Lucchesi-Ramazzotti,Fri 16:00
+82,Sub83,Rodolfo Lucchesi-Ramazzotti,Mon 12:00
+83,Sub84,Sig.ra Daria Faugno,Thu 16:00
+83,Sub84,Sig.ra Daria Faugno,Fri 18:00
+83,Sub84,Sig.ra Daria Faugno,Thu 12:00
+83,Sub84,Sig.ra Daria Faugno,Fri 10:00
+84,Sub85,Gian Biagi-Veneziano,Mon 10:00
+85,Sub86,Luca Bettoni,Thu 10:00
+85,Sub86,Luca Bettoni,Thu 16:00
+85,Sub86,Luca Bettoni,Thu 10:00
+85,Sub86,Luca Bettoni,Fri 18:00
+85,Sub86,Luca Bettoni,Fri 12:00
+86,Sub87,Sandro Tedesco,Fri 10:00
+86,Sub87,Sandro Tedesco,Fri 12:00
+86,Sub87,Sandro Tedesco,Mon 18:00
+87,Sub88,Diana Bettin,Fri 16:00
+87,Sub88,Diana Bettin,Mon 12:00
+88,Sub89,Aria Fantoni,Fri 12:00
+88,Sub89,Aria Fantoni,Thu 12:00
+88,Sub89,Aria Fantoni,Fri 18:00
+88,Sub89,Aria Fantoni,Mon 10:00
+88,Sub89,Aria Fantoni,Fri 10:00
+89,Sub90,Baldassare Gibilisco,Fri 16:00
+89,Sub90,Baldassare Gibilisco,Thu 12:00
+89,Sub90,Baldassare Gibilisco,Mon 10:00
+89,Sub90,Baldassare Gibilisco,Mon 12:00
+90,Sub91,Carolina Gozzi,Thu 16:00
+90,Sub91,Carolina Gozzi,Thu 12:00
+91,Sub92,Roberta Barsanti,Thu 18:00
+92,Sub93,Aria Pucci,Fri 12:00
+92,Sub93,Aria Pucci,Mon 10:00
+92,Sub93,Aria Pucci,Thu 12:00
+92,Sub93,Aria Pucci,Thu 12:00
+92,Sub93,Aria Pucci,Mon 16:00
+93,Sub94,Ramona Zetticci-Tresoldi,Fri 16:00
+93,Sub94,Ramona Zetticci-Tresoldi,Fri 10:00
+93,Sub94,Ramona Zetticci-Tresoldi,Fri 18:00
+94,Sub95,Sig. Gastone Mazzocchi,Mon 12:00
+95,Sub96,Giustino Petrassi,Fri 10:00
+95,Sub96,Giustino Petrassi,Fri 18:00
+95,Sub96,Giustino Petrassi,Mon 18:00
+95,Sub96,Giustino Petrassi,Mon 16:00
+95,Sub96,Giustino Petrassi,Thu 12:00
+96,Sub97,Leonardo Saragat,Mon 18:00
+96,Sub97,Leonardo Saragat,Fri 10:00
+96,Sub97,Leonardo Saragat,Mon 12:00
+96,Sub97,Leonardo Saragat,Fri 16:00
+96,Sub97,Leonardo Saragat,Thu 18:00
+97,Sub98,Dott. Agnolo Satta,Fri 18:00
+97,Sub98,Dott. Agnolo Satta,Fri 12:00
+97,Sub98,Dott. Agnolo Satta,Fri 18:00
+97,Sub98,Dott. Agnolo Satta,Mon 18:00
+97,Sub98,Dott. Agnolo Satta,Fri 18:00
+98,Sub99,Paulina Calgari,Mon 18:00
+98,Sub99,Paulina Calgari,Thu 12:00
+98,Sub99,Paulina Calgari,Thu 12:00
+98,Sub99,Paulina Calgari,Thu 10:00
+98,Sub99,Paulina Calgari,Fri 10:00
+99,Sub100,Giampaolo Tognazzi,Fri 16:00
+99,Sub100,Giampaolo Tognazzi,Thu 16:00
+99,Sub100,Giampaolo Tognazzi,Thu 10:00
+99,Sub100,Giampaolo Tognazzi,Mon 10:00
+99,Sub100,Giampaolo Tognazzi,Mon 12:00
+100,Sub101,Donatello Navone-Bombieri,Thu 12:00
+101,Sub102,Napoleone Lucarelli,Thu 12:00
+101,Sub102,Napoleone Lucarelli,Thu 18:00
+101,Sub102,Napoleone Lucarelli,Thu 18:00
+101,Sub102,Napoleone Lucarelli,Fri 10:00
+102,Sub103,Raimondo Vento,Fri 10:00
+102,Sub103,Raimondo Vento,Mon 12:00
+102,Sub103,Raimondo Vento,Thu 18:00
+102,Sub103,Raimondo Vento,Fri 18:00
+103,Sub104,Sig.ra Rosalia Trupiano,Fri 10:00
+104,Sub105,Leonardo Cammarata,Fri 16:00
+104,Sub105,Leonardo Cammarata,Fri 10:00
+104,Sub105,Leonardo Cammarata,Thu 10:00
+104,Sub105,Leonardo Cammarata,Thu 18:00
+105,Sub106,Giustino Carpaccio,Fri 12:00
+105,Sub106,Giustino Carpaccio,Thu 12:00
+105,Sub106,Giustino Carpaccio,Fri 16:00
+106,Sub107,Ermanno Lanfranchi,Fri 18:00
+106,Sub107,Ermanno Lanfranchi,Mon 12:00
+106,Sub107,Ermanno Lanfranchi,Mon 18:00
+107,Sub108,Giacobbe Mozart-Fiorucci,Thu 18:00
+108,Sub109,Serena Iannotti-Togliatti,Mon 12:00
+108,Sub109,Serena Iannotti-Togliatti,Mon 12:00
+108,Sub109,Serena Iannotti-Togliatti,Thu 16:00
+109,Sub110,Fortunata Berengario,Mon 16:00
+110,Sub111,Piersanti Lercari,Thu 10:00
+110,Sub111,Piersanti Lercari,Mon 12:00
+110,Sub111,Piersanti Lercari,Mon 12:00
+111,Sub112,Adamo Montesano,Mon 16:00
+111,Sub112,Adamo Montesano,Thu 10:00
+112,Sub113,Giuseppe Cusano,Mon 12:00
+113,Sub114,Sig.ra Paola Renier,Fri 18:00
+113,Sub114,Sig.ra Paola Renier,Mon 16:00
+113,Sub114,Sig.ra Paola Renier,Thu 18:00
+113,Sub114,Sig.ra Paola Renier,Mon 16:00
+113,Sub114,Sig.ra Paola Renier,Mon 18:00
+114,Sub115,Adriana Cardano,Fri 10:00
+114,Sub115,Adriana Cardano,Fri 16:00
+114,Sub115,Adriana Cardano,Mon 10:00
+115,Sub116,Enzio Verga,Thu 10:00
+115,Sub116,Enzio Verga,Thu 16:00
+116,Sub117,Napoleone Viola,Fri 16:00
+117,Sub118,Puccio Ceravolo,Fri 10:00
+117,Sub118,Puccio Ceravolo,Mon 16:00
+117,Sub118,Puccio Ceravolo,Thu 18:00
+118,Sub119,Livio Oscuro,Thu 12:00
+118,Sub119,Livio Oscuro,Thu 16:00
+118,Sub119,Livio Oscuro,Thu 18:00
+118,Sub119,Livio Oscuro,Fri 18:00
+118,Sub119,Livio Oscuro,Fri 16:00
+119,Sub120,Micheletto Foà,Mon 10:00
+119,Sub120,Micheletto Foà,Thu 10:00
+119,Sub120,Micheletto Foà,Mon 18:00
+120,Sub121,Flora Camilleri-Nitto,Mon 12:00
+120,Sub121,Flora Camilleri-Nitto,Mon 10:00
+121,Sub122,Loretta Costalonga,Mon 18:00
+121,Sub122,Loretta Costalonga,Fri 10:00
+121,Sub122,Loretta Costalonga,Fri 16:00
+121,Sub122,Loretta Costalonga,Thu 12:00
+122,Sub123,Ettore Eco,Thu 16:00
+122,Sub123,Ettore Eco,Fri 12:00
+122,Sub123,Ettore Eco,Thu 12:00
+122,Sub123,Ettore Eco,Fri 16:00
+123,Sub124,Allegra Errani,Fri 16:00
+123,Sub124,Allegra Errani,Thu 12:00
+124,Sub125,Sig.ra Lucia Grassi,Thu 18:00
+124,Sub125,Sig.ra Lucia Grassi,Fri 12:00
+125,Sub126,Ermes Cannizzaro-Pasolini,Fri 16:00
+126,Sub127,Ruggiero Garibaldi,Fri 18:00
+126,Sub127,Ruggiero Garibaldi,Fri 10:00
+126,Sub127,Ruggiero Garibaldi,Fri 10:00
+126,Sub127,Ruggiero Garibaldi,Thu 18:00
+127,Sub128,Romeo Nibali,Thu 18:00
+128,Sub129,Gianluigi Garobbio-Ariosto,Thu 10:00
+128,Sub129,Gianluigi Garobbio-Ariosto,Fri 12:00
+128,Sub129,Gianluigi Garobbio-Ariosto,Mon 16:00
+129,Sub130,Elvira Piacentini-Mondaini,Thu 10:00
+129,Sub130,Elvira Piacentini-Mondaini,Mon 16:00
+130,Sub131,Bartolomeo Liguori-Nicolucci,Thu 10:00
+131,Sub132,Monica Piazzi-Valguarnera,Mon 18:00
+131,Sub132,Monica Piazzi-Valguarnera,Thu 18:00
+132,Sub133,Dott. Daniele Gulotta,Thu 12:00
+133,Sub134,Giustino Baroffio,Thu 10:00
+133,Sub134,Giustino Baroffio,Mon 10:00
+133,Sub134,Giustino Baroffio,Mon 16:00
+134,Sub135,Raffaellino Musatti,Thu 12:00
+134,Sub135,Raffaellino Musatti,Thu 10:00
+134,Sub135,Raffaellino Musatti,Thu 18:00
+135,Sub136,Sig.ra Marcella Tornatore,Mon 16:00
+135,Sub136,Sig.ra Marcella Tornatore,Fri 12:00
+135,Sub136,Sig.ra Marcella Tornatore,Mon 16:00
+135,Sub136,Sig.ra Marcella Tornatore,Fri 18:00
+135,Sub136,Sig.ra Marcella Tornatore,Fri 10:00
+136,Sub137,Orlando Favata,Thu 10:00
+136,Sub137,Orlando Favata,Mon 16:00
+136,Sub137,Orlando Favata,Mon 16:00
+136,Sub137,Orlando Favata,Fri 18:00
+137,Sub138,Antonello Roero-Abbagnale,Fri 18:00
+137,Sub138,Antonello Roero-Abbagnale,Fri 16:00
+137,Sub138,Antonello Roero-Abbagnale,Mon 16:00
+137,Sub138,Antonello Roero-Abbagnale,Mon 16:00
+137,Sub138,Antonello Roero-Abbagnale,Mon 18:00
+138,Sub139,Ninetta Ferrucci,Mon 12:00
+138,Sub139,Ninetta Ferrucci,Mon 10:00
+138,Sub139,Ninetta Ferrucci,Thu 12:00
+138,Sub139,Ninetta Ferrucci,Fri 12:00
+139,Sub140,Sig. Bartolomeo Montalcini,Mon 16:00
+139,Sub140,Sig. Bartolomeo Montalcini,Thu 18:00
+139,Sub140,Sig. Bartolomeo Montalcini,Thu 10:00
+140,Sub141,Greca Cattaneo,Thu 12:00
+141,Sub142,Sig.ra Milena Maspero,Mon 16:00
+141,Sub142,Sig.ra Milena Maspero,Mon 18:00
+142,Sub143,Loretta Mogherini-Pinamonte,Fri 10:00
+142,Sub143,Loretta Mogherini-Pinamonte,Fri 18:00
+142,Sub143,Loretta Mogherini-Pinamonte,Mon 10:00
+143,Sub144,Sig.ra Paola Cendron,Fri 16:00
+143,Sub144,Sig.ra Paola Cendron,Thu 12:00
+143,Sub144,Sig.ra Paola Cendron,Thu 12:00
+144,Sub145,Pierpaolo Parini,Mon 16:00
+145,Sub146,Donna Manunta-Pisani,Thu 12:00
+145,Sub146,Donna Manunta-Pisani,Thu 18:00
+145,Sub146,Donna Manunta-Pisani,Fri 10:00
+146,Sub147,Adelasia Marenzio,Mon 16:00
+146,Sub147,Adelasia Marenzio,Fri 10:00
+146,Sub147,Adelasia Marenzio,Thu 10:00
+147,Sub148,Giacobbe Riccati-Milanesi,Mon 12:00
+148,Sub149,Maria Roth,Mon 10:00
+148,Sub149,Maria Roth,Thu 16:00
+148,Sub149,Maria Roth,Thu 18:00
+149,Sub150,Eva Torlonia-Sforza,Mon 16:00
+149,Sub150,Eva Torlonia-Sforza,Thu 18:00
+149,Sub150,Eva Torlonia-Sforza,Thu 12:00
+149,Sub150,Eva Torlonia-Sforza,Mon 16:00
+150,Sub151,Dott. Stefani Brenna,Mon 10:00
+150,Sub151,Dott. Stefani Brenna,Fri 18:00
+150,Sub151,Dott. Stefani Brenna,Fri 10:00
+150,Sub151,Dott. Stefani Brenna,Fri 10:00
+151,Sub152,Uberto Monti-Cabrini,Thu 12:00
+151,Sub152,Uberto Monti-Cabrini,Fri 16:00
+151,Sub152,Uberto Monti-Cabrini,Fri 18:00
+151,Sub152,Uberto Monti-Cabrini,Thu 10:00
+152,Sub153,Lodovico Gasperi,Thu 18:00
+152,Sub153,Lodovico Gasperi,Thu 10:00
+152,Sub153,Lodovico Gasperi,Fri 12:00
+152,Sub153,Lodovico Gasperi,Fri 16:00
+153,Sub154,Enrico Armellini,Mon 16:00
+153,Sub154,Enrico Armellini,Fri 12:00
+153,Sub154,Enrico Armellini,Fri 18:00
+154,Sub155,Gioele Siffredi,Thu 18:00
+154,Sub155,Gioele Siffredi,Thu 12:00
+155,Sub156,Antonietta Santoro,Fri 18:00
+155,Sub156,Antonietta Santoro,Mon 12:00
+155,Sub156,Antonietta Santoro,Fri 18:00
+155,Sub156,Antonietta Santoro,Thu 18:00
+156,Sub157,Serafina Ferrari,Mon 10:00
+156,Sub157,Serafina Ferrari,Mon 16:00
+156,Sub157,Serafina Ferrari,Fri 16:00
+156,Sub157,Serafina Ferrari,Fri 10:00
+157,Sub158,Sig.ra Melissa Piazzi,Mon 12:00
+157,Sub158,Sig.ra Melissa Piazzi,Thu 10:00
+157,Sub158,Sig.ra Melissa Piazzi,Mon 10:00
+158,Sub159,Enrico Ajello,Thu 16:00
+158,Sub159,Enrico Ajello,Fri 12:00
+158,Sub159,Enrico Ajello,Mon 18:00
+158,Sub159,Enrico Ajello,Thu 18:00
+158,Sub159,Enrico Ajello,Thu 12:00
+159,Sub160,Pietro Galiazzo,Mon 12:00
+159,Sub160,Pietro Galiazzo,Thu 12:00
+159,Sub160,Pietro Galiazzo,Mon 10:00
+160,Sub161,Ugolino Scarpa,Fri 12:00
+161,Sub162,Gionata Cassarà,Fri 16:00
+161,Sub162,Gionata Cassarà,Mon 18:00
+161,Sub162,Gionata Cassarà,Fri 12:00
+161,Sub162,Gionata Cassarà,Fri 10:00
+162,Sub163,Chiara Scarpa,Mon 18:00
+163,Sub164,Nicoletta Zaccardo-Mercantini,Thu 10:00
+163,Sub164,Nicoletta Zaccardo-Mercantini,Mon 18:00
+163,Sub164,Nicoletta Zaccardo-Mercantini,Mon 10:00
+163,Sub164,Nicoletta Zaccardo-Mercantini,Mon 12:00
+164,Sub165,Rosalia Tiepolo,Fri 10:00
+164,Sub165,Rosalia Tiepolo,Thu 18:00
+164,Sub165,Rosalia Tiepolo,Fri 16:00
+164,Sub165,Rosalia Tiepolo,Fri 16:00
+164,Sub165,Rosalia Tiepolo,Mon 12:00
+165,Sub166,Paloma Sabatini,Fri 10:00
+165,Sub166,Paloma Sabatini,Thu 16:00
+166,Sub167,Salvi Salgari,Mon 18:00
+166,Sub167,Salvi Salgari,Thu 18:00
+166,Sub167,Salvi Salgari,Thu 12:00
+166,Sub167,Salvi Salgari,Fri 12:00
+166,Sub167,Salvi Salgari,Fri 12:00
+167,Sub168,Gioffre Lerner-Tremonti,Fri 10:00
+167,Sub168,Gioffre Lerner-Tremonti,Mon 10:00
+167,Sub168,Gioffre Lerner-Tremonti,Fri 16:00
+168,Sub169,Sandra Giovine,Thu 12:00
+168,Sub169,Sandra Giovine,Thu 16:00
+168,Sub169,Sandra Giovine,Mon 16:00
+169,Sub170,Ranieri Borzomì-Lucciano,Fri 18:00
+170,Sub171,Guarino Morabito,Thu 16:00
+171,Sub172,Dott. Edoardo Contrafatto,Thu 12:00
+171,Sub172,Dott. Edoardo Contrafatto,Thu 16:00
+171,Sub172,Dott. Edoardo Contrafatto,Thu 12:00
+172,Sub173,Oreste Corradi,Mon 10:00
+172,Sub173,Oreste Corradi,Thu 10:00
+172,Sub173,Oreste Corradi,Thu 12:00
+173,Sub174,Dott. Antonella Pozzecco,Thu 12:00
+173,Sub174,Dott. Antonella Pozzecco,Thu 10:00
+173,Sub174,Dott. Antonella Pozzecco,Thu 18:00
+174,Sub175,Imelda Venier,Fri 10:00
+174,Sub175,Imelda Venier,Mon 12:00
+174,Sub175,Imelda Venier,Mon 18:00
+174,Sub175,Imelda Venier,Fri 18:00
+175,Sub176,Luciana Blasi,Thu 18:00
+175,Sub176,Luciana Blasi,Fri 18:00
+175,Sub176,Luciana Blasi,Thu 16:00
+175,Sub176,Luciana Blasi,Thu 18:00
+175,Sub176,Luciana Blasi,Thu 10:00
+176,Sub177,Pierpaolo Pelli,Mon 16:00
+176,Sub177,Pierpaolo Pelli,Fri 18:00
+176,Sub177,Pierpaolo Pelli,Thu 16:00
+176,Sub177,Pierpaolo Pelli,Fri 18:00
+177,Sub178,Valentina Antonucci,Thu 16:00
+177,Sub178,Valentina Antonucci,Mon 16:00
+178,Sub179,Liliana Sinisi,Fri 12:00
+178,Sub179,Liliana Sinisi,Fri 12:00
+178,Sub179,Liliana Sinisi,Mon 12:00
+178,Sub179,Liliana Sinisi,Mon 16:00
+179,Sub180,Mauro Mancini,Mon 18:00
+179,Sub180,Mauro Mancini,Thu 10:00
+179,Sub180,Mauro Mancini,Thu 18:00
+180,Sub181,Lucrezia Varano,Fri 10:00
+180,Sub181,Lucrezia Varano,Thu 12:00
+180,Sub181,Lucrezia Varano,Mon 12:00
+180,Sub181,Lucrezia Varano,Fri 12:00
+181,Sub182,Dott. Melania Galilei,Thu 16:00
+182,Sub183,Raffaello Spanevello-Badoer,Mon 12:00
+182,Sub183,Raffaello Spanevello-Badoer,Mon 10:00
+182,Sub183,Raffaello Spanevello-Badoer,Thu 16:00
+183,Sub184,Irma Pirandello,Fri 16:00
+183,Sub184,Irma Pirandello,Thu 10:00
+183,Sub184,Irma Pirandello,Thu 16:00
+183,Sub184,Irma Pirandello,Mon 16:00
+183,Sub184,Irma Pirandello,Fri 10:00
+184,Sub185,Dott. Marissa Ceravolo,Thu 18:00
+184,Sub185,Dott. Marissa Ceravolo,Fri 18:00
+184,Sub185,Dott. Marissa Ceravolo,Fri 12:00
+184,Sub185,Dott. Marissa Ceravolo,Mon 16:00
+185,Sub186,Nina Babati,Mon 18:00
+185,Sub186,Nina Babati,Mon 16:00
+185,Sub186,Nina Babati,Thu 16:00
+186,Sub187,Rita Zecchini,Thu 10:00
+187,Sub188,Allegra Brancaccio-Renzi,Fri 10:00
+188,Sub189,Romolo Faggiani,Thu 18:00
+188,Sub189,Romolo Faggiani,Mon 10:00
+188,Sub189,Romolo Faggiani,Thu 10:00
+188,Sub189,Romolo Faggiani,Fri 12:00
+189,Sub190,Giulio Parini,Thu 10:00
+189,Sub190,Giulio Parini,Thu 18:00
+189,Sub190,Giulio Parini,Fri 10:00
+190,Sub191,Dott. Rodolfo Molesini,Fri 18:00
+190,Sub191,Dott. Rodolfo Molesini,Thu 18:00
+190,Sub191,Dott. Rodolfo Molesini,Mon 18:00
+190,Sub191,Dott. Rodolfo Molesini,Mon 10:00
+190,Sub191,Dott. Rodolfo Molesini,Mon 10:00
+191,Sub192,Sig. Gustavo Quasimodo,Mon 16:00
+191,Sub192,Sig. Gustavo Quasimodo,Thu 10:00
+192,Sub193,Biagio Segrè-Antonioni,Thu 10:00
+193,Sub194,Dott. Jolanda Garzoni,Fri 16:00
+193,Sub194,Dott. Jolanda Garzoni,Fri 16:00
+194,Sub195,Antonia Bartoli-Bajamonti,Thu 18:00
+194,Sub195,Antonia Bartoli-Bajamonti,Mon 12:00
+194,Sub195,Antonia Bartoli-Bajamonti,Fri 16:00
+194,Sub195,Antonia Bartoli-Bajamonti,Fri 16:00
+194,Sub195,Antonia Bartoli-Bajamonti,Thu 10:00
+195,Sub196,Galasso Aporti,Thu 16:00
+195,Sub196,Galasso Aporti,Mon 16:00
+195,Sub196,Galasso Aporti,Thu 18:00
+195,Sub196,Galasso Aporti,Fri 18:00
+196,Sub197,Daria Giorgetti,Fri 16:00
+197,Sub198,Salvatore Carocci,Mon 18:00
+197,Sub198,Salvatore Carocci,Mon 10:00
+198,Sub199,Evangelista Scarpetta,Mon 12:00
+199,Sub200,Sig.ra Liana Detti,Thu 10:00
+199,Sub200,Sig.ra Liana Detti,Thu 18:00
+200,Sub201,Rosa Carocci,Mon 12:00
+200,Sub201,Rosa Carocci,Fri 12:00
+200,Sub201,Rosa Carocci,Fri 18:00
+201,Sub202,Lorenzo Cannizzaro,Thu 12:00
+201,Sub202,Lorenzo Cannizzaro,Fri 12:00
+201,Sub202,Lorenzo Cannizzaro,Thu 18:00
+202,Sub203,Allegra Mazzacurati,Fri 12:00
+202,Sub203,Allegra Mazzacurati,Thu 16:00
+202,Sub203,Allegra Mazzacurati,Thu 10:00
+202,Sub203,Allegra Mazzacurati,Fri 16:00
+203,Sub204,Tatiana Panicucci,Fri 16:00
+203,Sub204,Tatiana Panicucci,Thu 18:00
+203,Sub204,Tatiana Panicucci,Fri 18:00
+203,Sub204,Tatiana Panicucci,Mon 12:00
+203,Sub204,Tatiana Panicucci,Thu 12:00
+204,Sub205,Vincenza Fieramosca,Fri 10:00
+205,Sub206,Gioachino Camanni,Fri 18:00
+205,Sub206,Gioachino Camanni,Fri 12:00
+205,Sub206,Gioachino Camanni,Mon 10:00
+205,Sub206,Gioachino Camanni,Thu 10:00
+205,Sub206,Gioachino Camanni,Mon 16:00
+206,Sub207,Sig.ra Tina Casini,Fri 12:00
+206,Sub207,Sig.ra Tina Casini,Mon 10:00
+207,Sub208,Angelina Napolitano,Mon 16:00
+207,Sub208,Angelina Napolitano,Thu 12:00
+207,Sub208,Angelina Napolitano,Thu 18:00
+207,Sub208,Angelina Napolitano,Fri 18:00
+208,Sub209,Luigina Paganini,Mon 16:00
+208,Sub209,Luigina Paganini,Thu 12:00
+208,Sub209,Luigina Paganini,Mon 16:00
+209,Sub210,Tonino Morrocco,Mon 10:00
+209,Sub210,Tonino Morrocco,Thu 10:00
+209,Sub210,Tonino Morrocco,Thu 12:00
+210,Sub211,Pierpaolo Stoppani,Thu 16:00
+210,Sub211,Pierpaolo Stoppani,Fri 16:00
+210,Sub211,Pierpaolo Stoppani,Thu 12:00
+210,Sub211,Pierpaolo Stoppani,Mon 10:00
+211,Sub212,Raffaele Orengo,Thu 10:00
+212,Sub213,Marina Correr-Rocca,Thu 10:00
+212,Sub213,Marina Correr-Rocca,Fri 10:00
+212,Sub213,Marina Correr-Rocca,Fri 16:00
+212,Sub213,Marina Correr-Rocca,Mon 12:00
+212,Sub213,Marina Correr-Rocca,Fri 10:00
+213,Sub214,Valerio Jovinelli,Mon 18:00
+213,Sub214,Valerio Jovinelli,Fri 16:00
+214,Sub215,Ninetta Sordi,Mon 16:00
+214,Sub215,Ninetta Sordi,Mon 12:00
+214,Sub215,Ninetta Sordi,Fri 12:00
+214,Sub215,Ninetta Sordi,Mon 16:00
+214,Sub215,Ninetta Sordi,Fri 10:00
+215,Sub216,Marcella Inzaghi,Thu 12:00
+215,Sub216,Marcella Inzaghi,Thu 12:00
+215,Sub216,Marcella Inzaghi,Fri 16:00
+216,Sub217,Dott. Calogero Liguori,Thu 10:00
+216,Sub217,Dott. Calogero Liguori,Thu 10:00
+216,Sub217,Dott. Calogero Liguori,Fri 16:00
+216,Sub217,Dott. Calogero Liguori,Fri 18:00
+217,Sub218,Flavia Scarpa,Fri 18:00
+217,Sub218,Flavia Scarpa,Thu 12:00
+217,Sub218,Flavia Scarpa,Mon 12:00
+218,Sub219,Rosalia Parini,Fri 10:00
+218,Sub219,Rosalia Parini,Fri 12:00
+218,Sub219,Rosalia Parini,Thu 12:00
+219,Sub220,Dott. Simone Modiano,Mon 16:00
+219,Sub220,Dott. Simone Modiano,Mon 10:00
+220,Sub221,Sergius Franzese,Mon 16:00
+221,Sub222,Sig. Massimiliano Lippomano,Fri 10:00
+222,Sub223,Valeria Leopardi,Thu 10:00
+222,Sub223,Valeria Leopardi,Thu 12:00
+223,Sub224,Adriana Traetta,Thu 18:00
+223,Sub224,Adriana Traetta,Thu 16:00
+223,Sub224,Adriana Traetta,Thu 12:00
+223,Sub224,Adriana Traetta,Mon 16:00
+224,Sub225,Calcedonio Goldoni,Mon 12:00
+224,Sub225,Calcedonio Goldoni,Mon 18:00
+224,Sub225,Calcedonio Goldoni,Mon 16:00
+224,Sub225,Calcedonio Goldoni,Fri 10:00
+224,Sub225,Calcedonio Goldoni,Mon 18:00
+225,Sub226,Sig.ra Melina Vitturi,Mon 18:00
+225,Sub226,Sig.ra Melina Vitturi,Fri 10:00
+225,Sub226,Sig.ra Melina Vitturi,Fri 12:00
+225,Sub226,Sig.ra Melina Vitturi,Fri 18:00
+226,Sub227,Salvi Stradivari,Fri 10:00
+226,Sub227,Salvi Stradivari,Fri 10:00
+226,Sub227,Salvi Stradivari,Fri 18:00
+226,Sub227,Salvi Stradivari,Fri 10:00
+226,Sub227,Salvi Stradivari,Fri 18:00
+227,Sub228,Alessia Caboto,Mon 12:00
+228,Sub229,Gianfrancesco Pirandello-Gonzaga,Thu 16:00
+228,Sub229,Gianfrancesco Pirandello-Gonzaga,Thu 18:00
+228,Sub229,Gianfrancesco Pirandello-Gonzaga,Mon 12:00
+229,Sub230,Nanni Sforza-Visconti,Mon 12:00
+229,Sub230,Nanni Sforza-Visconti,Mon 16:00
+229,Sub230,Nanni Sforza-Visconti,Mon 10:00
+230,Sub231,Isabella Ravaglioli,Thu 18:00
+230,Sub231,Isabella Ravaglioli,Thu 12:00
+230,Sub231,Isabella Ravaglioli,Thu 10:00
+230,Sub231,Isabella Ravaglioli,Fri 18:00
+231,Sub232,Sig.ra Lara Sansoni,Thu 12:00
+231,Sub232,Sig.ra Lara Sansoni,Mon 16:00
+232,Sub233,Liberto Gregorio-Gianetti,Thu 18:00
+232,Sub233,Liberto Gregorio-Gianetti,Fri 12:00
+232,Sub233,Liberto Gregorio-Gianetti,Fri 10:00
+232,Sub233,Liberto Gregorio-Gianetti,Thu 12:00
+232,Sub233,Liberto Gregorio-Gianetti,Mon 16:00
+233,Sub234,Fredo Mennea,Fri 18:00
+233,Sub234,Fredo Mennea,Thu 10:00
+233,Sub234,Fredo Mennea,Mon 10:00
+234,Sub235,Fiorino Fermi,Fri 18:00
+234,Sub235,Fiorino Fermi,Mon 12:00
+234,Sub235,Fiorino Fermi,Mon 18:00
+234,Sub235,Fiorino Fermi,Mon 16:00
+235,Sub236,Saverio Lercari,Fri 18:00
+235,Sub236,Saverio Lercari,Mon 16:00
+236,Sub237,Sig.ra Bettina Ferrara,Fri 18:00
+237,Sub238,Gianluigi Onisto-Errani,Mon 18:00
+237,Sub238,Gianluigi Onisto-Errani,Thu 10:00
+238,Sub239,Alberto Udinese-Celentano,Mon 16:00
+239,Sub240,Antonino Berrè-Visconti,Mon 18:00
+239,Sub240,Antonino Berrè-Visconti,Mon 16:00
+239,Sub240,Antonino Berrè-Visconti,Mon 12:00
+239,Sub240,Antonino Berrè-Visconti,Thu 16:00
+240,Sub241,Dino Stradivari-Camilleri,Fri 18:00
+240,Sub241,Dino Stradivari-Camilleri,Mon 12:00
+241,Sub242,Ippazio Seddio,Mon 12:00
+241,Sub242,Ippazio Seddio,Mon 10:00
+241,Sub242,Ippazio Seddio,Thu 18:00
+241,Sub242,Ippazio Seddio,Thu 16:00
+242,Sub243,Margherita Morricone,Mon 10:00
+243,Sub244,Arnaldo Grimani,Mon 18:00
+243,Sub244,Arnaldo Grimani,Mon 12:00
+243,Sub244,Arnaldo Grimani,Mon 10:00
+244,Sub245,Carla Bocelli,Fri 16:00
+244,Sub245,Carla Bocelli,Fri 10:00
+244,Sub245,Carla Bocelli,Fri 12:00
+245,Sub246,Melina Borgia,Mon 10:00
+246,Sub247,Serafina Bernetti,Thu 18:00
+246,Sub247,Serafina Bernetti,Mon 12:00
+246,Sub247,Serafina Bernetti,Thu 10:00
+246,Sub247,Serafina Bernetti,Mon 10:00
+246,Sub247,Serafina Bernetti,Mon 12:00
+247,Sub248,Enzio Zanichelli,Thu 10:00
+247,Sub248,Enzio Zanichelli,Fri 16:00
+247,Sub248,Enzio Zanichelli,Mon 10:00
+247,Sub248,Enzio Zanichelli,Mon 12:00
+247,Sub248,Enzio Zanichelli,Mon 12:00
+248,Sub249,Calcedonio Grassi-Casale,Fri 12:00
+248,Sub249,Calcedonio Grassi-Casale,Mon 18:00
+248,Sub249,Calcedonio Grassi-Casale,Fri 12:00
+249,Sub250,Luciana Gelli,Mon 18:00
+249,Sub250,Luciana Gelli,Mon 16:00
+249,Sub250,Luciana Gelli,Fri 16:00
+250,Sub251,Liliana Salieri,Thu 12:00
+250,Sub251,Liliana Salieri,Mon 10:00
+251,Sub252,Giulietta Respighi,Mon 12:00
+251,Sub252,Giulietta Respighi,Mon 16:00
+252,Sub253,Atenulf Calbo-Foletti,Fri 18:00
+252,Sub253,Atenulf Calbo-Foletti,Thu 10:00
+252,Sub253,Atenulf Calbo-Foletti,Fri 12:00
+253,Sub254,Eva Iannucci-Bova,Thu 12:00
+253,Sub254,Eva Iannucci-Bova,Thu 12:00
+253,Sub254,Eva Iannucci-Bova,Mon 16:00
+253,Sub254,Eva Iannucci-Bova,Fri 10:00
+253,Sub254,Eva Iannucci-Bova,Fri 18:00
+254,Sub255,Gino Dovara,Fri 12:00
+254,Sub255,Gino Dovara,Mon 18:00
+255,Sub256,Antonina Crisafulli,Fri 10:00
+256,Sub257,Pierangelo Salieri,Fri 12:00
+256,Sub257,Pierangelo Salieri,Mon 12:00
+257,Sub258,Sig.ra Giulia Balbo,Mon 12:00
+257,Sub258,Sig.ra Giulia Balbo,Fri 12:00
+258,Sub259,Ivo Longhena,Mon 10:00
+258,Sub259,Ivo Longhena,Fri 10:00
+259,Sub260,Sig.ra Antonietta Giannotti,Mon 18:00
+259,Sub260,Sig.ra Antonietta Giannotti,Fri 18:00
+259,Sub260,Sig.ra Antonietta Giannotti,Mon 18:00
+259,Sub260,Sig.ra Antonietta Giannotti,Thu 10:00
+260,Sub261,Gaetano Raurica-Carosone,Mon 16:00
+261,Sub262,Fabrizia Contarini,Fri 10:00
+261,Sub262,Fabrizia Contarini,Mon 10:00
+261,Sub262,Fabrizia Contarini,Fri 18:00
+262,Sub263,Elmo Bongiorno-Bianchini,Mon 12:00
+262,Sub263,Elmo Bongiorno-Bianchini,Mon 18:00
+262,Sub263,Elmo Bongiorno-Bianchini,Fri 10:00
+262,Sub263,Elmo Bongiorno-Bianchini,Fri 18:00
+262,Sub263,Elmo Bongiorno-Bianchini,Thu 18:00
+263,Sub264,Livio Lussu,Thu 12:00
+263,Sub264,Livio Lussu,Fri 18:00
+263,Sub264,Livio Lussu,Fri 12:00
+263,Sub264,Livio Lussu,Mon 16:00
+263,Sub264,Livio Lussu,Thu 18:00
+264,Sub265,Cassandra Scotti,Fri 16:00
+264,Sub265,Cassandra Scotti,Mon 12:00
+264,Sub265,Cassandra Scotti,Mon 16:00
+265,Sub266,Sig.ra Valeria Pinamonte,Thu 12:00
+265,Sub266,Sig.ra Valeria Pinamonte,Thu 16:00
+265,Sub266,Sig.ra Valeria Pinamonte,Thu 16:00
+265,Sub266,Sig.ra Valeria Pinamonte,Mon 18:00
+266,Sub267,Temistocle Vecellio-Tafuri,Fri 10:00
+266,Sub267,Temistocle Vecellio-Tafuri,Mon 18:00
+266,Sub267,Temistocle Vecellio-Tafuri,Thu 16:00
+266,Sub267,Temistocle Vecellio-Tafuri,Mon 12:00
+266,Sub267,Temistocle Vecellio-Tafuri,Thu 12:00
+267,Sub268,Aria Barsanti,Mon 12:00
+267,Sub268,Aria Barsanti,Thu 18:00
+268,Sub269,Ida Greggio,Mon 12:00
+268,Sub269,Ida Greggio,Fri 10:00
+268,Sub269,Ida Greggio,Mon 16:00
+268,Sub269,Ida Greggio,Thu 18:00
+268,Sub269,Ida Greggio,Thu 12:00
+269,Sub270,Carlo Germano,Fri 18:00
+270,Sub271,Priscilla Argan-Jacuzzi,Thu 10:00
+271,Sub272,Angelina Dulbecco,Fri 10:00
+271,Sub272,Angelina Dulbecco,Fri 18:00
+271,Sub272,Angelina Dulbecco,Mon 10:00
+272,Sub273,Nadia Roth,Mon 12:00
+272,Sub273,Nadia Roth,Thu 12:00
+272,Sub273,Nadia Roth,Thu 18:00
+272,Sub273,Nadia Roth,Mon 12:00
+273,Sub274,Filippo Roccabonella-Stucchi,Thu 16:00
+273,Sub274,Filippo Roccabonella-Stucchi,Thu 10:00
+273,Sub274,Filippo Roccabonella-Stucchi,Thu 18:00
+273,Sub274,Filippo Roccabonella-Stucchi,Fri 12:00
+274,Sub275,Ruggiero Natta,Fri 18:00
+274,Sub275,Ruggiero Natta,Thu 10:00
+274,Sub275,Ruggiero Natta,Fri 16:00
+274,Sub275,Ruggiero Natta,Thu 18:00
+274,Sub275,Ruggiero Natta,Mon 18:00
+275,Sub276,Iolanda Micheletti,Fri 10:00
+275,Sub276,Iolanda Micheletti,Thu 16:00
+275,Sub276,Iolanda Micheletti,Thu 10:00
+275,Sub276,Iolanda Micheletti,Thu 16:00
+276,Sub277,Bianca Curiel-Monicelli,Mon 18:00
+276,Sub277,Bianca Curiel-Monicelli,Mon 12:00
+276,Sub277,Bianca Curiel-Monicelli,Thu 18:00
+276,Sub277,Bianca Curiel-Monicelli,Fri 16:00
+277,Sub278,Tonia Taliercio,Thu 12:00
+277,Sub278,Tonia Taliercio,Mon 16:00
+277,Sub278,Tonia Taliercio,Mon 10:00
+277,Sub278,Tonia Taliercio,Fri 16:00
+277,Sub278,Tonia Taliercio,Thu 18:00
+278,Sub279,Pasquale Vidoni-Barese,Fri 16:00
+279,Sub280,Barbara Medici,Mon 12:00
+279,Sub280,Barbara Medici,Thu 16:00
+280,Sub281,Luigi Carriera-Piovani,Thu 18:00
+280,Sub281,Luigi Carriera-Piovani,Fri 10:00
+280,Sub281,Luigi Carriera-Piovani,Fri 16:00
+281,Sub282,Adelasia Venier,Fri 16:00
+282,Sub283,Lucia Berrè,Mon 12:00
+282,Sub283,Lucia Berrè,Mon 12:00
+282,Sub283,Lucia Berrè,Mon 16:00
+282,Sub283,Lucia Berrè,Thu 16:00
+283,Sub284,Ugolino Opizzi,Thu 16:00
+283,Sub284,Ugolino Opizzi,Fri 18:00
+283,Sub284,Ugolino Opizzi,Fri 12:00
+283,Sub284,Ugolino Opizzi,Mon 12:00
+284,Sub285,Mercedes Roth,Fri 18:00
+284,Sub285,Mercedes Roth,Mon 16:00
+284,Sub285,Mercedes Roth,Mon 12:00
+284,Sub285,Mercedes Roth,Thu 12:00
+284,Sub285,Mercedes Roth,Mon 18:00
+285,Sub286,Gastone Interiano,Thu 12:00
+285,Sub286,Gastone Interiano,Mon 18:00
+285,Sub286,Gastone Interiano,Fri 12:00
+286,Sub287,Cecilia Lupo,Thu 16:00
+286,Sub287,Cecilia Lupo,Mon 12:00
+287,Sub288,Valentina Spadafora,Mon 18:00
+287,Sub288,Valentina Spadafora,Thu 16:00
+287,Sub288,Valentina Spadafora,Fri 18:00
+287,Sub288,Valentina Spadafora,Thu 18:00
+287,Sub288,Valentina Spadafora,Thu 10:00
+288,Sub289,Alphons Giradello,Fri 18:00
+288,Sub289,Alphons Giradello,Fri 12:00
+288,Sub289,Alphons Giradello,Fri 12:00
+288,Sub289,Alphons Giradello,Thu 10:00
+288,Sub289,Alphons Giradello,Fri 16:00
+289,Sub290,Dott. Graziella Vigorelli,Thu 16:00
+289,Sub290,Dott. Graziella Vigorelli,Thu 12:00
+290,Sub291,Pier Caboto,Thu 18:00
+290,Sub291,Pier Caboto,Fri 16:00
+291,Sub292,Damiano Scalfaro,Fri 12:00
+291,Sub292,Damiano Scalfaro,Thu 16:00
+291,Sub292,Damiano Scalfaro,Thu 18:00
+291,Sub292,Damiano Scalfaro,Fri 10:00
+292,Sub293,Eraldo Tarantini,Thu 10:00
+292,Sub293,Eraldo Tarantini,Mon 16:00
+292,Sub293,Eraldo Tarantini,Thu 18:00
+292,Sub293,Eraldo Tarantini,Mon 12:00
+292,Sub293,Eraldo Tarantini,Mon 12:00
+293,Sub294,Sig.ra Monica Leblanc,Thu 10:00
+294,Sub295,Maura Sermonti,Thu 18:00
+295,Sub296,Rolando Vigorelli,Thu 18:00
+295,Sub296,Rolando Vigorelli,Mon 18:00
+295,Sub296,Rolando Vigorelli,Fri 16:00
+295,Sub296,Rolando Vigorelli,Mon 16:00
+295,Sub296,Rolando Vigorelli,Mon 10:00
+296,Sub297,Oreste Federici,Mon 12:00
+296,Sub297,Oreste Federici,Fri 18:00
+297,Sub298,Monica Cianciolo,Mon 10:00
+297,Sub298,Monica Cianciolo,Mon 12:00
+297,Sub298,Monica Cianciolo,Thu 18:00
+298,Sub299,Guido Pozzecco,Fri 16:00
+298,Sub299,Guido Pozzecco,Mon 10:00
+299,Sub300,Sig. Adamo Longhena,Mon 16:00
+299,Sub300,Sig. Adamo Longhena,Thu 16:00
+300,Sub301,Sig.ra Renata Stein,Fri 12:00
+300,Sub301,Sig.ra Renata Stein,Fri 16:00
+300,Sub301,Sig.ra Renata Stein,Thu 12:00
+301,Sub302,Riccardo Vasari,Mon 16:00
+301,Sub302,Riccardo Vasari,Thu 10:00
+302,Sub303,Isabella Montanelli,Fri 12:00
+302,Sub303,Isabella Montanelli,Fri 12:00
+302,Sub303,Isabella Montanelli,Mon 12:00
+303,Sub304,Ornella Paolucci,Mon 12:00
+303,Sub304,Ornella Paolucci,Fri 16:00
+303,Sub304,Ornella Paolucci,Fri 10:00
+303,Sub304,Ornella Paolucci,Thu 18:00
+303,Sub304,Ornella Paolucci,Thu 18:00
+304,Sub305,Ida Farnese,Mon 18:00
+304,Sub305,Ida Farnese,Thu 10:00
+304,Sub305,Ida Farnese,Fri 16:00
+305,Sub306,Dott. Pina Pasqua,Thu 18:00
+306,Sub307,Piergiorgio Battelli,Thu 18:00
+306,Sub307,Piergiorgio Battelli,Fri 10:00
+306,Sub307,Piergiorgio Battelli,Thu 10:00
+307,Sub308,Sig. Orazio Pavone,Fri 10:00
+307,Sub308,Sig. Orazio Pavone,Thu 12:00
+308,Sub309,Sonia Corcos-Taliercio,Fri 10:00
+308,Sub309,Sonia Corcos-Taliercio,Fri 10:00
+308,Sub309,Sonia Corcos-Taliercio,Mon 10:00
+308,Sub309,Sonia Corcos-Taliercio,Mon 10:00
+308,Sub309,Sonia Corcos-Taliercio,Thu 16:00
+309,Sub310,Dino Tebaldi,Mon 12:00
+309,Sub310,Dino Tebaldi,Thu 16:00
+309,Sub310,Dino Tebaldi,Thu 18:00
+310,Sub311,Imelda Callegari,Thu 12:00
+310,Sub311,Imelda Callegari,Thu 16:00
+311,Sub312,Bettina Trobbiani,Thu 18:00
+311,Sub312,Bettina Trobbiani,Thu 18:00
+311,Sub312,Bettina Trobbiani,Mon 10:00
+312,Sub313,Alessandra Collina,Mon 10:00
+312,Sub313,Alessandra Collina,Mon 16:00
+312,Sub313,Alessandra Collina,Fri 10:00
+312,Sub313,Alessandra Collina,Fri 16:00
+312,Sub313,Alessandra Collina,Thu 10:00
+313,Sub314,Sophia Costalonga,Fri 18:00
+313,Sub314,Sophia Costalonga,Mon 16:00
+313,Sub314,Sophia Costalonga,Thu 18:00
+313,Sub314,Sophia Costalonga,Thu 16:00
+313,Sub314,Sophia Costalonga,Mon 16:00
+314,Sub315,Ruggiero Iannuzzi,Thu 10:00
+315,Sub316,Sig. Biagio Mondaini,Fri 18:00
+315,Sub316,Sig. Biagio Mondaini,Thu 16:00
+315,Sub316,Sig. Biagio Mondaini,Thu 18:00
+315,Sub316,Sig. Biagio Mondaini,Mon 12:00
+315,Sub316,Sig. Biagio Mondaini,Fri 12:00
+316,Sub317,Nina Parmitano-Mercalli,Fri 16:00
+316,Sub317,Nina Parmitano-Mercalli,Thu 18:00
+317,Sub318,Vincenza Sraffa-Vendetti,Fri 16:00
+317,Sub318,Vincenza Sraffa-Vendetti,Fri 10:00
+317,Sub318,Vincenza Sraffa-Vendetti,Fri 16:00
+317,Sub318,Vincenza Sraffa-Vendetti,Fri 10:00
+317,Sub318,Vincenza Sraffa-Vendetti,Fri 12:00
+318,Sub319,Bartolomeo Gianvecchio,Thu 18:00
+318,Sub319,Bartolomeo Gianvecchio,Thu 18:00
+318,Sub319,Bartolomeo Gianvecchio,Fri 10:00
+318,Sub319,Bartolomeo Gianvecchio,Mon 16:00
+318,Sub319,Bartolomeo Gianvecchio,Fri 10:00
+319,Sub320,Tina Luna-Gentili,Mon 10:00
+319,Sub320,Tina Luna-Gentili,Thu 16:00
+320,Sub321,Dott. Marcella Caironi,Thu 10:00
+320,Sub321,Dott. Marcella Caironi,Thu 18:00
+321,Sub322,Vanessa Callegari-Ruffini,Fri 12:00
+321,Sub322,Vanessa Callegari-Ruffini,Thu 16:00
+321,Sub322,Vanessa Callegari-Ruffini,Fri 12:00
+321,Sub322,Vanessa Callegari-Ruffini,Fri 16:00
+321,Sub322,Vanessa Callegari-Ruffini,Thu 12:00
+322,Sub323,Leonardo Badoer,Thu 10:00
+322,Sub323,Leonardo Badoer,Thu 12:00
+322,Sub323,Leonardo Badoer,Mon 10:00
+322,Sub323,Leonardo Badoer,Mon 10:00
+322,Sub323,Leonardo Badoer,Fri 12:00
+323,Sub324,Manuel Bertolucci,Mon 10:00
+323,Sub324,Manuel Bertolucci,Mon 16:00
+323,Sub324,Manuel Bertolucci,Thu 12:00
+324,Sub325,Micheletto Panatta-Ricciardi,Thu 12:00
+324,Sub325,Micheletto Panatta-Ricciardi,Fri 18:00
+324,Sub325,Micheletto Panatta-Ricciardi,Fri 12:00
+324,Sub325,Micheletto Panatta-Ricciardi,Mon 10:00
+324,Sub325,Micheletto Panatta-Ricciardi,Fri 16:00
+325,Sub326,Gioele Turchi,Thu 12:00
+326,Sub327,Paulina Errigo,Thu 16:00
+327,Sub328,Federico Bosurgi,Mon 12:00
+328,Sub329,Liliana Giusti,Thu 16:00
+329,Sub330,Ramona Cociarelli,Thu 12:00
+329,Sub330,Ramona Cociarelli,Thu 12:00
+329,Sub330,Ramona Cociarelli,Thu 16:00
+329,Sub330,Ramona Cociarelli,Thu 12:00
+329,Sub330,Ramona Cociarelli,Mon 10:00
+330,Sub331,Romolo Grossi,Fri 16:00
+330,Sub331,Romolo Grossi,Mon 18:00
+330,Sub331,Romolo Grossi,Mon 18:00
+331,Sub332,Francesca Aloisio,Mon 18:00
+331,Sub332,Francesca Aloisio,Fri 16:00
+332,Sub333,Giovanna Vergerio,Thu 10:00
+332,Sub333,Giovanna Vergerio,Fri 12:00
+332,Sub333,Giovanna Vergerio,Mon 12:00
+332,Sub333,Giovanna Vergerio,Fri 18:00
+332,Sub333,Giovanna Vergerio,Mon 12:00
+333,Sub334,Benito Rossini,Thu 10:00
+333,Sub334,Benito Rossini,Mon 12:00
+333,Sub334,Benito Rossini,Thu 12:00
+333,Sub334,Benito Rossini,Mon 16:00
+334,Sub335,Sig. Pietro Greggio,Mon 10:00
+334,Sub335,Sig. Pietro Greggio,Fri 10:00
+334,Sub335,Sig. Pietro Greggio,Thu 12:00
+334,Sub335,Sig. Pietro Greggio,Mon 10:00
+334,Sub335,Sig. Pietro Greggio,Thu 18:00
+335,Sub336,Giuseppina Filangieri,Fri 16:00
+336,Sub337,Maura Canetta,Thu 16:00
+336,Sub337,Maura Canetta,Fri 12:00
+336,Sub337,Maura Canetta,Fri 10:00
+336,Sub337,Maura Canetta,Thu 16:00
+337,Sub338,Orazio Oliboni,Thu 10:00
+337,Sub338,Orazio Oliboni,Mon 10:00
+337,Sub338,Orazio Oliboni,Fri 18:00
+337,Sub338,Orazio Oliboni,Thu 18:00
+337,Sub338,Orazio Oliboni,Fri 12:00
+338,Sub339,Giuliana Malacarne,Mon 10:00
+338,Sub339,Giuliana Malacarne,Thu 12:00
+338,Sub339,Giuliana Malacarne,Thu 16:00
+339,Sub340,Paolo Leoncavallo,Fri 12:00
+339,Sub340,Paolo Leoncavallo,Thu 16:00
+339,Sub340,Paolo Leoncavallo,Thu 12:00
+340,Sub341,Armando Tamburi,Fri 12:00
+340,Sub341,Armando Tamburi,Mon 12:00
+340,Sub341,Armando Tamburi,Thu 18:00
+340,Sub341,Armando Tamburi,Mon 12:00
+341,Sub342,Gianmarco Niggli-Galiazzo,Fri 18:00
+341,Sub342,Gianmarco Niggli-Galiazzo,Fri 16:00
+342,Sub343,Elisa Gregori-Ciani,Mon 18:00
+342,Sub343,Elisa Gregori-Ciani,Thu 12:00
+342,Sub343,Elisa Gregori-Ciani,Thu 18:00
+342,Sub343,Elisa Gregori-Ciani,Fri 10:00
+343,Sub344,Berenice Barracco-Mascheroni,Fri 16:00
+343,Sub344,Berenice Barracco-Mascheroni,Thu 12:00
+343,Sub344,Berenice Barracco-Mascheroni,Mon 16:00
+344,Sub345,Amanda Ossani,Fri 12:00
+344,Sub345,Amanda Ossani,Thu 10:00
+344,Sub345,Amanda Ossani,Thu 12:00
+344,Sub345,Amanda Ossani,Thu 16:00
+345,Sub346,Dott. Beatrice Malacarne,Mon 18:00
+346,Sub347,Sig. Federico Filzi,Thu 18:00
+347,Sub348,Mirko Turchi,Fri 16:00
+347,Sub348,Mirko Turchi,Mon 12:00
+348,Sub349,Germana Dallara,Fri 10:00
+348,Sub349,Germana Dallara,Mon 18:00
+348,Sub349,Germana Dallara,Thu 10:00
+348,Sub349,Germana Dallara,Thu 10:00
+349,Sub350,Santino Malacarne-Morgagni,Mon 10:00
+349,Sub350,Santino Malacarne-Morgagni,Thu 10:00
+349,Sub350,Santino Malacarne-Morgagni,Fri 12:00
+349,Sub350,Santino Malacarne-Morgagni,Thu 16:00
+350,Sub351,Ruggero Borromini,Mon 18:00
+350,Sub351,Ruggero Borromini,Fri 12:00
+350,Sub351,Ruggero Borromini,Fri 18:00
+350,Sub351,Ruggero Borromini,Mon 12:00
+351,Sub352,Gianluca Petrucelli,Fri 18:00
+351,Sub352,Gianluca Petrucelli,Fri 12:00
+351,Sub352,Gianluca Petrucelli,Mon 12:00
+351,Sub352,Gianluca Petrucelli,Fri 12:00
+352,Sub353,Letizia Bulzoni,Thu 12:00
+352,Sub353,Letizia Bulzoni,Thu 10:00
+353,Sub354,Alessandra Iannucci,Mon 12:00
+353,Sub354,Alessandra Iannucci,Fri 12:00
+353,Sub354,Alessandra Iannucci,Fri 10:00
+354,Sub355,Cassandra Santorio,Thu 18:00
+354,Sub355,Cassandra Santorio,Thu 16:00
+354,Sub355,Cassandra Santorio,Mon 18:00
+354,Sub355,Cassandra Santorio,Thu 12:00
+354,Sub355,Cassandra Santorio,Mon 12:00
+355,Sub356,Sig. Orazio Pagnotto,Fri 16:00
+355,Sub356,Sig. Orazio Pagnotto,Thu 10:00
+356,Sub357,Gianpaolo Serao,Fri 10:00
+356,Sub357,Gianpaolo Serao,Thu 10:00
+356,Sub357,Gianpaolo Serao,Thu 16:00
+357,Sub358,Marcantonio Gangemi,Fri 16:00
+357,Sub358,Marcantonio Gangemi,Fri 10:00
+357,Sub358,Marcantonio Gangemi,Thu 12:00
+358,Sub359,Antonella Scarlatti-Marangoni,Mon 18:00
+358,Sub359,Antonella Scarlatti-Marangoni,Thu 16:00
+358,Sub359,Antonella Scarlatti-Marangoni,Thu 16:00
+359,Sub360,Loretta Carullo-Cilibrasi,Thu 10:00
+359,Sub360,Loretta Carullo-Cilibrasi,Fri 12:00
+359,Sub360,Loretta Carullo-Cilibrasi,Fri 10:00
+359,Sub360,Loretta Carullo-Cilibrasi,Thu 18:00
+360,Sub361,Angelo Marinetti,Fri 16:00
+360,Sub361,Angelo Marinetti,Fri 10:00
+361,Sub362,Carla Cagnotto,Mon 16:00
+361,Sub362,Carla Cagnotto,Mon 10:00
+361,Sub362,Carla Cagnotto,Fri 16:00
+362,Sub363,Durante Pedroni,Fri 18:00
+362,Sub363,Durante Pedroni,Fri 10:00
+362,Sub363,Durante Pedroni,Mon 16:00
+362,Sub363,Durante Pedroni,Fri 12:00
+362,Sub363,Durante Pedroni,Thu 18:00
+363,Sub364,Liana Vecoli,Mon 18:00
+363,Sub364,Liana Vecoli,Fri 16:00
+363,Sub364,Liana Vecoli,Fri 18:00
+363,Sub364,Liana Vecoli,Thu 18:00
+363,Sub364,Liana Vecoli,Thu 10:00
+364,Sub365,Renata Costalonga,Fri 16:00
+365,Sub366,Sophia Calarco,Fri 10:00
+365,Sub366,Sophia Calarco,Fri 12:00
+365,Sub366,Sophia Calarco,Thu 16:00
+366,Sub367,Rosaria Pizzamano,Fri 12:00
+366,Sub367,Rosaria Pizzamano,Fri 18:00
+367,Sub368,Amedeo Paganini-Gagliardi,Fri 16:00
+367,Sub368,Amedeo Paganini-Gagliardi,Mon 10:00
+367,Sub368,Amedeo Paganini-Gagliardi,Fri 10:00
+367,Sub368,Amedeo Paganini-Gagliardi,Mon 18:00
+368,Sub369,Maria Gilardoni,Thu 12:00
+369,Sub370,Dott. Nanni Verdi,Thu 18:00
+369,Sub370,Dott. Nanni Verdi,Mon 16:00
+369,Sub370,Dott. Nanni Verdi,Mon 18:00
+370,Sub371,Laura Bignardi-Pezzali,Mon 16:00
+370,Sub371,Laura Bignardi-Pezzali,Fri 18:00
+370,Sub371,Laura Bignardi-Pezzali,Fri 16:00
+370,Sub371,Laura Bignardi-Pezzali,Thu 10:00
+371,Sub372,Franco Castellitto-Santorio,Thu 16:00
+371,Sub372,Franco Castellitto-Santorio,Thu 16:00
+372,Sub373,Giacomo Argentero,Thu 12:00
+372,Sub373,Giacomo Argentero,Mon 12:00
+373,Sub374,Mariano Gonzaga,Fri 16:00
+374,Sub375,Geronimo Bombieri,Mon 18:00
+375,Sub376,Eugenia Gaggini,Thu 16:00
+375,Sub376,Eugenia Gaggini,Thu 10:00
+375,Sub376,Eugenia Gaggini,Thu 10:00
+376,Sub377,Marcello Comisso,Fri 16:00
+376,Sub377,Marcello Comisso,Mon 16:00
+376,Sub377,Marcello Comisso,Thu 10:00
+376,Sub377,Marcello Comisso,Fri 16:00
+377,Sub378,Adelasia Lerner,Fri 12:00
+377,Sub378,Adelasia Lerner,Mon 18:00
+377,Sub378,Adelasia Lerner,Thu 16:00
+377,Sub378,Adelasia Lerner,Mon 18:00
+377,Sub378,Adelasia Lerner,Mon 12:00
+378,Sub379,Domenico Vecoli,Mon 16:00
+378,Sub379,Domenico Vecoli,Mon 18:00
+378,Sub379,Domenico Vecoli,Mon 10:00
+378,Sub379,Domenico Vecoli,Mon 18:00
+379,Sub380,Federico Capone-Asprucci,Thu 10:00
+379,Sub380,Federico Capone-Asprucci,Thu 18:00
+380,Sub381,Alberto Odescalchi,Thu 18:00
+380,Sub381,Alberto Odescalchi,Fri 10:00
+381,Sub382,Luigi Anichini,Thu 16:00
+381,Sub382,Luigi Anichini,Thu 16:00
+381,Sub382,Luigi Anichini,Fri 16:00
+382,Sub383,Giustino Bernardi,Mon 10:00
+382,Sub383,Giustino Bernardi,Mon 18:00
+382,Sub383,Giustino Bernardi,Mon 16:00
+382,Sub383,Giustino Bernardi,Thu 10:00
+382,Sub383,Giustino Bernardi,Mon 16:00
+383,Sub384,Pierpaolo Trobbiani,Mon 10:00
+383,Sub384,Pierpaolo Trobbiani,Thu 10:00
+383,Sub384,Pierpaolo Trobbiani,Thu 10:00
+384,Sub385,Azeglio Simeoni,Fri 16:00
+384,Sub385,Azeglio Simeoni,Fri 10:00
+385,Sub386,Lauretta Toselli,Mon 16:00
+385,Sub386,Lauretta Toselli,Fri 16:00
+386,Sub387,Bianca Salvo,Mon 10:00
+386,Sub387,Bianca Salvo,Fri 18:00
+386,Sub387,Bianca Salvo,Thu 18:00
+386,Sub387,Bianca Salvo,Mon 10:00
+387,Sub388,Fabia Battaglia,Mon 10:00
+387,Sub388,Fabia Battaglia,Mon 12:00
+387,Sub388,Fabia Battaglia,Thu 12:00
+387,Sub388,Fabia Battaglia,Fri 12:00
+387,Sub388,Fabia Battaglia,Thu 10:00
+388,Sub389,Sig.ra Marina Bajamonti,Mon 12:00
+388,Sub389,Sig.ra Marina Bajamonti,Thu 16:00
+388,Sub389,Sig.ra Marina Bajamonti,Thu 12:00
+388,Sub389,Sig.ra Marina Bajamonti,Fri 16:00
+389,Sub390,Sante Pigafetta,Fri 16:00
+389,Sub390,Sante Pigafetta,Mon 12:00
+389,Sub390,Sante Pigafetta,Thu 16:00
+389,Sub390,Sante Pigafetta,Fri 18:00
+390,Sub391,Tina Cannizzaro,Mon 16:00
+390,Sub391,Tina Cannizzaro,Mon 18:00
+390,Sub391,Tina Cannizzaro,Mon 12:00
+391,Sub392,Victoria Ruffini,Fri 12:00
+391,Sub392,Victoria Ruffini,Fri 18:00
+391,Sub392,Victoria Ruffini,Fri 10:00
+391,Sub392,Victoria Ruffini,Mon 12:00
+392,Sub393,Biagio Milanesi,Fri 10:00
+393,Sub394,Concetta Bodoni,Fri 16:00
+394,Sub395,Guglielmo Vespucci,Fri 12:00
+394,Sub395,Guglielmo Vespucci,Fri 10:00
+394,Sub395,Guglielmo Vespucci,Thu 10:00
+394,Sub395,Guglielmo Vespucci,Thu 18:00
+395,Sub396,Sig.ra Liliana Turchetta,Mon 12:00
+395,Sub396,Sig.ra Liliana Turchetta,Mon 18:00
+395,Sub396,Sig.ra Liliana Turchetta,Fri 12:00
+395,Sub396,Sig.ra Liliana Turchetta,Mon 12:00
+395,Sub396,Sig.ra Liliana Turchetta,Thu 12:00
+396,Sub397,Rodolfo Togliatti-Ricci,Thu 12:00
+396,Sub397,Rodolfo Togliatti-Ricci,Fri 12:00
+396,Sub397,Rodolfo Togliatti-Ricci,Fri 18:00
+396,Sub397,Rodolfo Togliatti-Ricci,Thu 16:00
+397,Sub398,Damiano Villadicani,Fri 18:00
+397,Sub398,Damiano Villadicani,Fri 18:00
+398,Sub399,Dott. Luisa Salvini,Mon 18:00
+398,Sub399,Dott. Luisa Salvini,Thu 16:00
+399,Sub400,Piergiuseppe Morlacchi,Mon 18:00
+399,Sub400,Piergiuseppe Morlacchi,Mon 16:00
+399,Sub400,Piergiuseppe Morlacchi,Mon 12:00
+399,Sub400,Piergiuseppe Morlacchi,Mon 16:00
+399,Sub400,Piergiuseppe Morlacchi,Mon 18:00
+400,Sub401,Lolita Praga,Thu 10:00
+400,Sub401,Lolita Praga,Thu 18:00
+400,Sub401,Lolita Praga,Thu 16:00
+401,Sub402,Dott. Greca Renault,Thu 10:00
+402,Sub403,Sig. Nico Corradi,Fri 12:00
+403,Sub404,Martina Boitani-Burcardo,Mon 10:00
+403,Sub404,Martina Boitani-Burcardo,Thu 18:00
+403,Sub404,Martina Boitani-Burcardo,Fri 10:00
+404,Sub405,Carmelo Rienzo,Thu 12:00
+404,Sub405,Carmelo Rienzo,Fri 18:00
+404,Sub405,Carmelo Rienzo,Mon 12:00
+404,Sub405,Carmelo Rienzo,Thu 12:00
+405,Sub406,Niccolò Cesarotti,Fri 10:00
+405,Sub406,Niccolò Cesarotti,Thu 16:00
+405,Sub406,Niccolò Cesarotti,Thu 18:00
+405,Sub406,Niccolò Cesarotti,Fri 16:00
+405,Sub406,Niccolò Cesarotti,Mon 18:00
+406,Sub407,Annunziata Zampa,Thu 10:00
+406,Sub407,Annunziata Zampa,Mon 16:00
+406,Sub407,Annunziata Zampa,Thu 12:00
+406,Sub407,Annunziata Zampa,Thu 18:00
+407,Sub408,Imelda Castellitto,Fri 18:00
+407,Sub408,Imelda Castellitto,Thu 12:00
+407,Sub408,Imelda Castellitto,Thu 10:00
+408,Sub409,Lara Ramazzotti,Mon 10:00
+408,Sub409,Lara Ramazzotti,Fri 16:00
+408,Sub409,Lara Ramazzotti,Fri 12:00
+408,Sub409,Lara Ramazzotti,Mon 10:00
+408,Sub409,Lara Ramazzotti,Fri 18:00
+409,Sub410,Dott. Giovanna Mazzanti,Fri 16:00
+410,Sub411,Dott. Tonino Frescobaldi,Mon 10:00
+411,Sub412,Santino Garzoni,Fri 18:00
+411,Sub412,Santino Garzoni,Fri 16:00
+411,Sub412,Santino Garzoni,Mon 18:00
+411,Sub412,Santino Garzoni,Thu 10:00
+412,Sub413,Maurizio Viviani,Fri 10:00
+412,Sub413,Maurizio Viviani,Thu 16:00
+413,Sub414,Dott. Gustavo Gemito,Thu 10:00
+413,Sub414,Dott. Gustavo Gemito,Fri 16:00
+413,Sub414,Dott. Gustavo Gemito,Fri 18:00
+414,Sub415,Patrizia Volta,Thu 12:00
+414,Sub415,Patrizia Volta,Fri 16:00
+414,Sub415,Patrizia Volta,Mon 12:00
+415,Sub416,Goffredo Badoer,Fri 10:00
+415,Sub416,Goffredo Badoer,Mon 18:00
+415,Sub416,Goffredo Badoer,Thu 18:00
+415,Sub416,Goffredo Badoer,Thu 16:00
+416,Sub417,Guarino Mascheroni,Mon 10:00
+416,Sub417,Guarino Mascheroni,Thu 16:00
+416,Sub417,Guarino Mascheroni,Thu 10:00
+417,Sub418,Sig. Adriano Fabrizi,Thu 10:00
+418,Sub419,Pasquale Bonanno,Mon 12:00
+418,Sub419,Pasquale Bonanno,Mon 18:00
+418,Sub419,Pasquale Bonanno,Thu 10:00
+418,Sub419,Pasquale Bonanno,Mon 18:00
+419,Sub420,Amadeo Buscetta,Mon 16:00
+420,Sub421,Dott. Lidia Puccini,Thu 18:00
+420,Sub421,Dott. Lidia Puccini,Fri 16:00
+420,Sub421,Dott. Lidia Puccini,Thu 12:00
+420,Sub421,Dott. Lidia Puccini,Fri 16:00
+420,Sub421,Dott. Lidia Puccini,Thu 16:00
+421,Sub422,Isa Cristoforetti,Mon 10:00
+421,Sub422,Isa Cristoforetti,Thu 10:00
+421,Sub422,Isa Cristoforetti,Mon 12:00
+421,Sub422,Isa Cristoforetti,Thu 18:00
+421,Sub422,Isa Cristoforetti,Thu 18:00
+422,Sub423,Sig. Manuel Zoppetti,Fri 18:00
+422,Sub423,Sig. Manuel Zoppetti,Thu 16:00
+423,Sub424,Aurora Bernardi,Thu 12:00
+423,Sub424,Aurora Bernardi,Fri 18:00
+423,Sub424,Aurora Bernardi,Thu 16:00
+424,Sub425,Ermenegildo Benedetti,Mon 12:00
+424,Sub425,Ermenegildo Benedetti,Mon 16:00
+424,Sub425,Ermenegildo Benedetti,Fri 18:00
+424,Sub425,Ermenegildo Benedetti,Thu 10:00
+424,Sub425,Ermenegildo Benedetti,Fri 10:00
+425,Sub426,Aria Lanfranchi-Ruberto,Mon 12:00
+425,Sub426,Aria Lanfranchi-Ruberto,Thu 12:00
+425,Sub426,Aria Lanfranchi-Ruberto,Thu 16:00
+426,Sub427,Ludovica Spanevello-Roth,Fri 12:00
+427,Sub428,Germana Gadda,Fri 18:00
+427,Sub428,Germana Gadda,Fri 10:00
+427,Sub428,Germana Gadda,Fri 18:00
+427,Sub428,Germana Gadda,Thu 12:00
+428,Sub429,Carla Murri,Thu 18:00
+428,Sub429,Carla Murri,Fri 18:00
+428,Sub429,Carla Murri,Mon 10:00
+428,Sub429,Carla Murri,Mon 10:00
+428,Sub429,Carla Murri,Fri 16:00
+429,Sub430,Camilla Lopresti,Fri 16:00
+429,Sub430,Camilla Lopresti,Mon 16:00
+429,Sub430,Camilla Lopresti,Fri 16:00
+429,Sub430,Camilla Lopresti,Thu 18:00
+430,Sub431,Tatiana Spinelli-Trombetta,Fri 16:00
+430,Sub431,Tatiana Spinelli-Trombetta,Mon 16:00
+430,Sub431,Tatiana Spinelli-Trombetta,Mon 10:00
+430,Sub431,Tatiana Spinelli-Trombetta,Thu 16:00
+430,Sub431,Tatiana Spinelli-Trombetta,Mon 18:00
+431,Sub432,Gloria Beccheria-Galuppi,Fri 16:00
+431,Sub432,Gloria Beccheria-Galuppi,Thu 10:00
+431,Sub432,Gloria Beccheria-Galuppi,Thu 12:00
+432,Sub433,Romana Bersani,Fri 12:00
+432,Sub433,Romana Bersani,Mon 12:00
+432,Sub433,Romana Bersani,Mon 12:00
+432,Sub433,Romana Bersani,Mon 16:00
+432,Sub433,Romana Bersani,Mon 18:00
+433,Sub434,Gastone Manzoni,Fri 10:00
+433,Sub434,Gastone Manzoni,Fri 18:00
+433,Sub434,Gastone Manzoni,Fri 16:00
+433,Sub434,Gastone Manzoni,Mon 16:00
+433,Sub434,Gastone Manzoni,Fri 12:00
+434,Sub435,Edoardo Guarana,Fri 16:00
+435,Sub436,Marcantonio Casarin-Alfieri,Thu 16:00
+435,Sub436,Marcantonio Casarin-Alfieri,Thu 12:00
+436,Sub437,Luisa Duodo,Thu 18:00
+437,Sub438,Nino Tutino,Thu 18:00
+437,Sub438,Nino Tutino,Fri 18:00
+437,Sub438,Nino Tutino,Mon 16:00
+437,Sub438,Nino Tutino,Thu 10:00
+438,Sub439,Dott. Michela Zaccardo,Mon 16:00
+438,Sub439,Dott. Michela Zaccardo,Fri 16:00
+438,Sub439,Dott. Michela Zaccardo,Fri 12:00
+439,Sub440,Lara Bonino-Petrucelli,Thu 12:00
+439,Sub440,Lara Bonino-Petrucelli,Thu 10:00
+439,Sub440,Lara Bonino-Petrucelli,Mon 18:00
+440,Sub441,Dott. Marcella Antonini,Mon 12:00
+440,Sub441,Dott. Marcella Antonini,Thu 16:00
+440,Sub441,Dott. Marcella Antonini,Thu 12:00
+440,Sub441,Dott. Marcella Antonini,Mon 16:00
+440,Sub441,Dott. Marcella Antonini,Thu 16:00
+441,Sub442,Antonina Mazzi,Thu 16:00
+441,Sub442,Antonina Mazzi,Fri 12:00
+441,Sub442,Antonina Mazzi,Mon 18:00
+442,Sub443,Luigina Pirandello,Mon 10:00
+442,Sub443,Luigina Pirandello,Mon 10:00
+443,Sub444,Sig.ra Giulia Carosone,Fri 10:00
+443,Sub444,Sig.ra Giulia Carosone,Fri 16:00
+444,Sub445,Alina Modiano,Fri 12:00
+444,Sub445,Alina Modiano,Fri 16:00
+444,Sub445,Alina Modiano,Mon 18:00
+444,Sub445,Alina Modiano,Mon 12:00
+444,Sub445,Alina Modiano,Thu 18:00
+445,Sub446,Romeo Orengo,Mon 18:00
+445,Sub446,Romeo Orengo,Thu 10:00
+445,Sub446,Romeo Orengo,Fri 18:00
+445,Sub446,Romeo Orengo,Mon 16:00
+445,Sub446,Romeo Orengo,Mon 10:00
+446,Sub447,Raffaello Camuccini,Thu 16:00
+446,Sub447,Raffaello Camuccini,Fri 12:00
+446,Sub447,Raffaello Camuccini,Thu 16:00
+446,Sub447,Raffaello Camuccini,Fri 12:00
+447,Sub448,Raffaello Piccio,Thu 10:00
+447,Sub448,Raffaello Piccio,Mon 16:00
+447,Sub448,Raffaello Piccio,Mon 12:00
+447,Sub448,Raffaello Piccio,Thu 12:00
+447,Sub448,Raffaello Piccio,Mon 16:00
+448,Sub449,Aria Petrassi,Fri 12:00
+449,Sub450,Martino Gangemi-Montecchi,Mon 12:00
+450,Sub451,Beppe Tonisto,Mon 10:00
+451,Sub452,Carla Turchetta-Toninelli,Fri 18:00
+451,Sub452,Carla Turchetta-Toninelli,Fri 10:00
+452,Sub453,Maurilio Nicolucci,Thu 16:00
+452,Sub453,Maurilio Nicolucci,Thu 18:00
+452,Sub453,Maurilio Nicolucci,Fri 16:00
+453,Sub454,Dott. Fiamma Camilleri,Thu 18:00
+453,Sub454,Dott. Fiamma Camilleri,Mon 12:00
+453,Sub454,Dott. Fiamma Camilleri,Mon 18:00
+453,Sub454,Dott. Fiamma Camilleri,Fri 18:00
+454,Sub455,Girolamo Fibonacci,Mon 18:00
+454,Sub455,Girolamo Fibonacci,Mon 18:00
+454,Sub455,Girolamo Fibonacci,Thu 10:00
+454,Sub455,Girolamo Fibonacci,Thu 10:00
+454,Sub455,Girolamo Fibonacci,Fri 18:00
+455,Sub456,Eraldo Borromini,Thu 18:00
+455,Sub456,Eraldo Borromini,Thu 16:00
+455,Sub456,Eraldo Borromini,Mon 16:00
+455,Sub456,Eraldo Borromini,Thu 16:00
+456,Sub457,Silvio Scarlatti,Mon 18:00
+456,Sub457,Silvio Scarlatti,Fri 12:00
+457,Sub458,Raffaella Salandra,Mon 18:00
+457,Sub458,Raffaella Salandra,Thu 10:00
+457,Sub458,Raffaella Salandra,Fri 18:00
+457,Sub458,Raffaella Salandra,Fri 16:00
+457,Sub458,Raffaella Salandra,Mon 18:00
+458,Sub459,Paulina Miniati-Mercadante,Thu 16:00
+458,Sub459,Paulina Miniati-Mercadante,Mon 16:00
+458,Sub459,Paulina Miniati-Mercadante,Thu 16:00
+458,Sub459,Paulina Miniati-Mercadante,Mon 16:00
+458,Sub459,Paulina Miniati-Mercadante,Mon 10:00
+459,Sub460,Ranieri Boldù,Thu 10:00
+459,Sub460,Ranieri Boldù,Thu 10:00
+460,Sub461,Maria Marcacci,Mon 18:00
+460,Sub461,Maria Marcacci,Fri 12:00
+460,Sub461,Maria Marcacci,Thu 18:00
+461,Sub462,Arsenio Nievo-Tomaselli,Mon 18:00
+461,Sub462,Arsenio Nievo-Tomaselli,Thu 12:00
+461,Sub462,Arsenio Nievo-Tomaselli,Fri 12:00
+461,Sub462,Arsenio Nievo-Tomaselli,Fri 16:00
+461,Sub462,Arsenio Nievo-Tomaselli,Fri 16:00
+462,Sub463,Lodovico Scalfaro,Thu 18:00
+462,Sub463,Lodovico Scalfaro,Mon 12:00
+462,Sub463,Lodovico Scalfaro,Mon 10:00
+463,Sub464,Angelica Bettin,Thu 18:00
+463,Sub464,Angelica Bettin,Mon 16:00
+464,Sub465,Sig. Beppe Bulzoni,Thu 12:00
+464,Sub465,Sig. Beppe Bulzoni,Fri 18:00
+464,Sub465,Sig. Beppe Bulzoni,Thu 16:00
+464,Sub465,Sig. Beppe Bulzoni,Fri 16:00
+465,Sub466,Roberta Tolentino,Mon 18:00
+465,Sub466,Roberta Tolentino,Fri 18:00
+465,Sub466,Roberta Tolentino,Thu 16:00
+465,Sub466,Roberta Tolentino,Fri 18:00
+465,Sub466,Roberta Tolentino,Thu 16:00
+466,Sub467,Marisa Vismara,Fri 18:00
+466,Sub467,Marisa Vismara,Fri 12:00
+466,Sub467,Marisa Vismara,Thu 10:00
+467,Sub468,Dott. Maria Farinelli,Mon 12:00
+467,Sub468,Dott. Maria Farinelli,Mon 12:00
+467,Sub468,Dott. Maria Farinelli,Fri 10:00
+467,Sub468,Dott. Maria Farinelli,Mon 10:00
+467,Sub468,Dott. Maria Farinelli,Mon 10:00
+468,Sub469,Sig. Temistocle Contrafatto,Thu 12:00
+468,Sub469,Sig. Temistocle Contrafatto,Mon 18:00
+468,Sub469,Sig. Temistocle Contrafatto,Thu 18:00
+469,Sub470,Roberto Camiscione,Thu 12:00
+469,Sub470,Roberto Camiscione,Fri 12:00
+469,Sub470,Roberto Camiscione,Fri 16:00
+469,Sub470,Roberto Camiscione,Fri 12:00
+469,Sub470,Roberto Camiscione,Fri 18:00
+470,Sub471,Dott. Toni Dossetti,Fri 18:00
+470,Sub471,Dott. Toni Dossetti,Mon 10:00
+470,Sub471,Dott. Toni Dossetti,Mon 10:00
+470,Sub471,Dott. Toni Dossetti,Thu 10:00
+470,Sub471,Dott. Toni Dossetti,Fri 10:00
+471,Sub472,Gioffre Romiti,Fri 12:00
+471,Sub472,Gioffre Romiti,Thu 16:00
+471,Sub472,Gioffre Romiti,Thu 10:00
+471,Sub472,Gioffre Romiti,Thu 16:00
+471,Sub472,Gioffre Romiti,Fri 16:00
+472,Sub473,Nedda Tresoldi,Thu 12:00
+472,Sub473,Nedda Tresoldi,Mon 16:00
+472,Sub473,Nedda Tresoldi,Fri 10:00
+472,Sub473,Nedda Tresoldi,Mon 10:00
+473,Sub474,Diana Ortolani,Fri 12:00
+473,Sub474,Diana Ortolani,Mon 16:00
+473,Sub474,Diana Ortolani,Thu 10:00
+473,Sub474,Diana Ortolani,Mon 16:00
+473,Sub474,Diana Ortolani,Fri 10:00
+474,Sub475,Sig. Osvaldo Pizziol,Thu 18:00
+474,Sub475,Sig. Osvaldo Pizziol,Thu 12:00
+474,Sub475,Sig. Osvaldo Pizziol,Thu 18:00
+475,Sub476,Dott. Mario Bodoni,Mon 16:00
+475,Sub476,Dott. Mario Bodoni,Mon 12:00
+475,Sub476,Dott. Mario Bodoni,Thu 12:00
+475,Sub476,Dott. Mario Bodoni,Fri 18:00
+476,Sub477,Dott. Orlando Loredan,Fri 10:00
+477,Sub478,Enzio Montecchi-Bova,Thu 16:00
+477,Sub478,Enzio Montecchi-Bova,Mon 16:00
+477,Sub478,Enzio Montecchi-Bova,Thu 10:00
+478,Sub479,Stefania Cipolla,Mon 12:00
+478,Sub479,Stefania Cipolla,Thu 12:00
+478,Sub479,Stefania Cipolla,Mon 10:00
+479,Sub480,Sig. Ottone Cerutti,Mon 16:00
+480,Sub481,Veronica Brenna,Thu 18:00
+480,Sub481,Veronica Brenna,Thu 10:00
+480,Sub481,Veronica Brenna,Fri 18:00
+480,Sub481,Veronica Brenna,Thu 12:00
+481,Sub482,Nicola Mondaini-Ceravolo,Thu 16:00
+481,Sub482,Nicola Mondaini-Ceravolo,Thu 10:00
+481,Sub482,Nicola Mondaini-Ceravolo,Thu 10:00
+481,Sub482,Nicola Mondaini-Ceravolo,Fri 12:00
+481,Sub482,Nicola Mondaini-Ceravolo,Thu 10:00
+482,Sub483,Valeria Troisi-Cabrini,Fri 10:00
+482,Sub483,Valeria Troisi-Cabrini,Thu 12:00
+482,Sub483,Valeria Troisi-Cabrini,Thu 16:00
+483,Sub484,Susanna Randazzo-Tomasini,Mon 16:00
+484,Sub485,Dott. Milo Mascheroni,Thu 12:00
+484,Sub485,Dott. Milo Mascheroni,Fri 18:00
+484,Sub485,Dott. Milo Mascheroni,Thu 18:00
+484,Sub485,Dott. Milo Mascheroni,Mon 16:00
+484,Sub485,Dott. Milo Mascheroni,Fri 10:00
+485,Sub486,Giampaolo Mortati,Fri 16:00
+485,Sub486,Giampaolo Mortati,Fri 16:00
+485,Sub486,Giampaolo Mortati,Thu 18:00
+485,Sub486,Giampaolo Mortati,Mon 10:00
+486,Sub487,Elvira Gemito,Mon 18:00
+486,Sub487,Elvira Gemito,Mon 16:00
+486,Sub487,Elvira Gemito,Mon 10:00
+487,Sub488,Ermanno Borzomì,Mon 18:00
+487,Sub488,Ermanno Borzomì,Mon 16:00
+487,Sub488,Ermanno Borzomì,Mon 10:00
+487,Sub488,Ermanno Borzomì,Thu 18:00
+487,Sub488,Ermanno Borzomì,Thu 10:00
+488,Sub489,Ciro Tomaselli-Vecellio,Mon 16:00
+488,Sub489,Ciro Tomaselli-Vecellio,Fri 18:00
+488,Sub489,Ciro Tomaselli-Vecellio,Thu 18:00
+488,Sub489,Ciro Tomaselli-Vecellio,Thu 16:00
+488,Sub489,Ciro Tomaselli-Vecellio,Mon 12:00
+489,Sub490,Dott. Stefania Morandini,Thu 18:00
+489,Sub490,Dott. Stefania Morandini,Mon 10:00
+490,Sub491,Cecilia Paolini,Thu 18:00
+491,Sub492,Ettore Fabbri,Thu 12:00
+491,Sub492,Ettore Fabbri,Fri 18:00
+491,Sub492,Ettore Fabbri,Fri 10:00
+491,Sub492,Ettore Fabbri,Thu 18:00
+491,Sub492,Ettore Fabbri,Thu 18:00
+492,Sub493,Dott. Virginia Romiti,Thu 18:00
+492,Sub493,Dott. Virginia Romiti,Mon 12:00
+492,Sub493,Dott. Virginia Romiti,Fri 18:00
+492,Sub493,Dott. Virginia Romiti,Mon 16:00
+493,Sub494,Piergiorgio Oscuro,Mon 12:00
+493,Sub494,Piergiorgio Oscuro,Thu 12:00
+494,Sub495,Virginia Gioberti-Ruggeri,Mon 12:00
+494,Sub495,Virginia Gioberti-Ruggeri,Mon 18:00
+494,Sub495,Virginia Gioberti-Ruggeri,Thu 10:00
+494,Sub495,Virginia Gioberti-Ruggeri,Mon 16:00
+494,Sub495,Virginia Gioberti-Ruggeri,Mon 16:00
+495,Sub496,Giorgia Salandra,Fri 18:00
+495,Sub496,Giorgia Salandra,Fri 10:00
+495,Sub496,Giorgia Salandra,Thu 10:00
+495,Sub496,Giorgia Salandra,Fri 12:00
+495,Sub496,Giorgia Salandra,Fri 16:00
+496,Sub497,Vittorio Giovine,Fri 12:00
+496,Sub497,Vittorio Giovine,Mon 18:00
+496,Sub497,Vittorio Giovine,Fri 12:00
+496,Sub497,Vittorio Giovine,Mon 10:00
+497,Sub498,Ruggiero Ferrara-Pacelli,Fri 10:00
+497,Sub498,Ruggiero Ferrara-Pacelli,Fri 12:00
+498,Sub499,Pina Rossetti-Scalfaro,Mon 16:00
+498,Sub499,Pina Rossetti-Scalfaro,Thu 16:00
+499,Sub500,Orazio Tedesco-Tron,Mon 12:00

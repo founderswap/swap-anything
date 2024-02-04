@@ -15,10 +15,15 @@ def print_version(ctx, param, value):
 
 
 @click.command(name='swapanything',
-               help=('This the CLI of the swapanything package. The FILENAME argument '
+               help=('This the CLI of the swapanything package. The SOURCE argument '
                      'is the path to the file containing the information about the subjects '
-                     'and their available time slots.'))
-@click.argument('filename',
+                     'and their available time slots. The selected slots of the matched '
+                     'subjects will be stored in the DEST file. The output file will have '
+                     'the same type of the input file.'))
+@click.argument('source',
+                type=click.Path(),
+                )
+@click.argument('dest',
                 type=click.Path(),
                 )
 @click.option('--filetype', '-ft',
@@ -65,27 +70,28 @@ def print_version(ctx, param, value):
               is_eager=True,
               help='Print the version of the package.',
               )
-def main(filename: str,
+def main(source: str,
          filetype: str,
          separator: str,
          index_col: bool,
          subject_col: str,
          slot_col: str,
          headers: bool,
+         dest: str,
          ):
     _header = 'infer' if headers else None
     _index_col = 0 if index_col else False
 
     if filetype.lower() == 'csv' or filetype.lower() == 'c':
         availabilities_df = pd.read_csv(
-            filepath_or_buffer=filename,
+            filepath_or_buffer=source,
             header=_header,
             sep=separator,
             index_col=_index_col,
             )
     else:
         availabilities_df = pd.read_excel(
-            filepath_or_buffer=filename,
+            filepath_or_buffer=source,
             header=_header,
             sep=separator,
             index_col=_index_col,
@@ -103,4 +109,7 @@ def main(filename: str,
         slots_col=slot_col,
     )
 
-    print(selected)
+    if filetype.lower() == 'csv' or filetype.lower() == 'c':
+        selected.to_csv(dest)
+    else:
+        selected.to_excel(dest)
